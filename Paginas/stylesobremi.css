@@ -42,7 +42,6 @@ body {
 
 /* aqui se define el tamaño de los cuadros */
 .contenedordelodemas {
-    max-width: 1500px;
     margin: 200px 100px;
 }
 

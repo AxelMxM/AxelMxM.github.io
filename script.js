@@ -61,7 +61,7 @@ let videos = [
         description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique deleniti cum at nesciunt cumque voluptatem tempore quia architecto",
         link: "https://www.ejemplo.com/pelicula-hd-1"
     },
-    // Agrega más objetos de video según sea necesario
+    // Agrega más objetos de video según sea necesari
 ];
 
 
