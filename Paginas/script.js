@@ -2,612 +2,707 @@
 let videos = [
     //Diseño asistido por computadora Inicio
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/1.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 1 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/2.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/2.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 2 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza2.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza2.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/3.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/3.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 3 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza3.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza3.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/4.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/4.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 4 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza4.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza4.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/5.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/5.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 5 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza5.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza5.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/6.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/6.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 6 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza6.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza6.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/7.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/7.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 7 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza7.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza7.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/8.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/8.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 8 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza8.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza8.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/8.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/8.1.jpg",
         title: "Diseño Asistido",
         description: "Pieza 8 AutoCad",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza8.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza8.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/9.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/9.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 9 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza9.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza9.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/9.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/9.1.jpg",
         title: "Diseño Asistido",
         description: "Pieza 9 AutoCad",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza9.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza9.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/10.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/10.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 10 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza10.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza10.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/10.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/10.1.jpg",
         title: "Diseño Asistido",
         description: "Pieza 10 AutoCad",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza10.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza10.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/11.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/11.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 11 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza11.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza11.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/11.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/11.1.jpg",
         title: "Diseño Asistido",
         description: "Pieza 11 AutoCad",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza11.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza11.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/12.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/12.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 12 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza12.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza12.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/12.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/12.1.jpg",
         title: "Diseño Asistido",
         description: "Pieza 12 AutoCad",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza12.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza12.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/13.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/13.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 13 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza13.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza13.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/13.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/13.1.jpg",
         title: "Diseño Asistido",
         description: "Pieza 13 AutoCad",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza13.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza13.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/14.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/14.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 14 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza14.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza14.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/15.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/15.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 15 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza15.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza15.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/16.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/16.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 16 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza16.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza16.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/17.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/17.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 17 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza17.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza17.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/18.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/18.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 18 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza18.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza18.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/18.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/18.1.jpg",
         title: "Diseño Asistido",
         description: "Pieza 18 AutoCad",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza18.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza18.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/19.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/19.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 19 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza19.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza19.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/20.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/20.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 20 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza20.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza20.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/21.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/21.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 21 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza21.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza21.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/22.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/22.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 22 Examen Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza22.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza22.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/23.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/23.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 23 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza23.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza23.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/24.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/24.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 24 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza24.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza24.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/25.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/25.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 25 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza25.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza25.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/26.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/26.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 26 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza26.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza26.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/27.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/27.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 27 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza27.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza27.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/27.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/27.1.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 27 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza27.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza27.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/28.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/28.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 28 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza28.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza28.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/28.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/28.1.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 28 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza28.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza28.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/29.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/29.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 29 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza29.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza29.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/29.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/29.1.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 29 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza29.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza29.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/30.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/30.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 30 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza30.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza30.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/30.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/30.1.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 30 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza30.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza30.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/30.2.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/30.2.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 30 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza30.2.html"
-    }
-    ,
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza30.2.html",
+    },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/31.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/31.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 31 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza31.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza31.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/31.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/31.1.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 31 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza31.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza31.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/31.2.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/31.2.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 31 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza31.2.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza31.2.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/31.2.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/31.2.1.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 31 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza31.2.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza31.2.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/31.3.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/31.3.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 31 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza31.3.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza31.3.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/31.3.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/31.3.1.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 31 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza31.3.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza31.3.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/31.4.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/31.4.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 31 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza31.4.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza31.4.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/31.completa.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/31.completa.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 31 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza31completa.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza31completa.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 32 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.1.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 32 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.2.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.2.1.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 32 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.2.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.2.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.2.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.2.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 32 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.2.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.2.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.3.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.3.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 32 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.3.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.3.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.4.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.4.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 32 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.4.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.4.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.4.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.4.1.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 32 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.4.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.4.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.5.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.5.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 32 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.5.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.5.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.5.1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.5.1.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 32 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.5.1.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.5.1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.6.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.6.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 32 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.6.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.6.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.7.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.7.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 32 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.7.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.7.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.8.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.8.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 32 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.8.html"
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.8.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32 completa.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32 completa.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 32 Autodesk Inventor Professional",
-        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.completo.html"
-    }, 
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.completo.html",
+    },
     // Diseño asistido por computadora final
-
 
     //elementos dimensionales Inicio
     {
-        imageSrc: "/Todos-los-Trabajos/elementos dimensionales/Imagenes de dibujo/Pieza1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/elementos dimensionales/Imagenes de dibujo/Pieza1.jpg",
         title: "Dibujo elementos dimensionales",
         description: "Pieza 1",
-        link: "/Todos-los-Trabajos/elementos dimensionales/Pieza1.html"
+        link: "/Todos-los-Trabajos/elementos dimensionales/Pieza1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/elementos dimensionales/Imagenes de dibujo/Pieza2.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/elementos dimensionales/Imagenes de dibujo/Pieza2.jpg",
         title: "Dibujo elementos dimensionales",
         description: "Pieza 2",
-        link: "/Todos-los-Trabajos/elementos dimensionales/Pieza2.html"
+        link: "/Todos-los-Trabajos/elementos dimensionales/Pieza2.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/elementos dimensionales/Imagenes de dibujo/Pieza3.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/elementos dimensionales/Imagenes de dibujo/Pieza3.jpg",
         title: "Dibujo elementos dimensionales",
         description: "Pieza 3",
-        link: "/Todos-los-Trabajos/elementos dimensionales/Pieza3.html"
+        link: "/Todos-los-Trabajos/elementos dimensionales/Pieza3.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/elementos dimensionales/Imagenes de dibujo/Pieza4.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/elementos dimensionales/Imagenes de dibujo/Pieza4.jpg",
         title: "Dibujo elementos dimensionales",
         description: "Pieza 4",
-        link: "/Todos-los-Trabajos/elementos dimensionales/Pieza4.html"
+        link: "/Todos-los-Trabajos/elementos dimensionales/Pieza4.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/elementos dimensionales/Imagenes de dibujo/Pieza5.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/elementos dimensionales/Imagenes de dibujo/Pieza5.jpg",
         title: "Dibujo elementos dimensionales",
         description: "Pieza 5",
-        link: "/Todos-los-Trabajos/elementos dimensionales/Pieza5.html"
-    }, 
+        link: "/Todos-los-Trabajos/elementos dimensionales/Pieza5.html",
+    },
     //elementos dimensionales Inicio
 
     //control lógico programable Inicio
     {
-        imageSrc: "/Todos-los-Trabajos/control lógico programable/imagenes-controles-logicos/1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/control lógico programable/imagenes-controles-logicos/1.jpg",
         title: "Programación Mchine Expert Basic",
         description: "Programación 1",
-        link: "/Todos-los-Trabajos/control lógico programable/Pieza1.html"
+        link: "/Todos-los-Trabajos/control lógico programable/Pieza1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/control lógico programable/imagenes-controles-logicos/4.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/control lógico programable/imagenes-controles-logicos/4.jpg",
         title: "Programación Mchine Expert Basic",
         description: "Programación 2",
-        link: "/Todos-los-Trabajos/control lógico programable/Pieza2.html"
+        link: "/Todos-los-Trabajos/control lógico programable/Pieza2.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/control lógico programable/imagenes-controles-logicos/8.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/control lógico programable/imagenes-controles-logicos/8.jpg",
         title: "Programación Mchine Expert Basic",
         description: "Programación 3",
-        link: "/Todos-los-Trabajos/control lógico programable/Pieza3.html"
-    }, 
+        link: "/Todos-los-Trabajos/control lógico programable/Pieza3.html",
+    },
     {
-        imageSrc: "/Todos-los-Trabajos/control lógico programable/imagenes-controles-logicos/12.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/control lógico programable/imagenes-controles-logicos/12.jpg",
         title: "Programación Mchine Expert Basic",
         description: "Programación 4",
-        link: "/Todos-los-Trabajos/control lógico programable/Pieza4.html"
-    }, 
+        link: "/Todos-los-Trabajos/control lógico programable/Pieza4.html",
+    },
     //control lógico programable Final
-    
+
     //CNC
     {
-        imageSrc: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/1.jpg",
         title: "Simulacion de piezas en torno CNC FANUC HAAS",
         description: "Simulacion de pieza 1",
-        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza1.html"
+        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/5.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/5.jpg",
         title: "Simulacion de piezas en torno CNC FANUC HAAS",
         description: "Simulacion de pieza 2",
-        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza2.html"
+        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza2.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/9.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/9.jpg",
         title: "Simulacion de piezas en torno CNC FANUC HAAS",
         description: "Simulacion de pieza 3",
-        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza3.html"
+        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza3.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/13.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/13.jpg",
         title: "Simulacion de piezas en torno CNC FANUC HAAS",
         description: "Simulacion de pieza 4",
-        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza4.html"
+        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza4.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/17.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/17.jpg",
         title: "Simulacion de piezas en torno CNC FANUC HAAS",
         description: "Simulacion de pieza 5",
-        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza5.html"
+        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza5.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/21.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/21.jpg",
         title: "Simulacion de piezas en torno CNC FANUC HAAS",
         description: "Simulacion de pieza 6",
-        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza6.html"
+        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza6.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/25.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/25.jpg",
         title: "Simulacion de piezas en torno CNC FANUC HAAS",
         description: "Simulacion de pieza 7",
-        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza7.html"
+        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza7.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/29.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/29.jpg",
         title: "Simulacion de piezas en torno CNC FANUC HAAS",
         description: "Simulacion de pieza 8",
-        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza8.html"
+        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza8.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/33.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/33.jpg",
         title: "Simulacion de piezas en torno CNC FANUC HAAS",
         description: "Simulacion de pieza 9",
-        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza9.html"
+        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza9.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/37.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Manofactura-flexible-cnc/Imagenes-Simulacion-CNC/37.jpg",
         title: "Simulacion de piezas en torno CNC FANUC HAAS",
         description: "Simulacion de pieza 10",
-        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza10.html"
+        link: "/Todos-los-Trabajos/Manofactura-flexible-cnc/Pieza10.html",
     },
     //CNC Final
 
-    //Robotica Inicio   
+    //Robotica Inicio
     {
         imageSrc: "/Todos-los-Trabajos/Robotica/imagene-Robotica/2.jpg",
         title: "Simulacion de piezas en Robotstudio",
         description: "Simulacion de pieza 1",
-        link: "/Todos-los-Trabajos/Robotica/Pieza1.html"
+        link: "/Todos-los-Trabajos/Robotica/Pieza1.html",
     },
     {
         imageSrc: "/Todos-los-Trabajos/Robotica/imagene-Robotica/4.jpg",
         title: "Simulacion de piezas en Robotstudio",
         description: "Simulacion de pieza 2",
-        link: "/Todos-los-Trabajos/Robotica/Pieza2.html"
+        link: "/Todos-los-Trabajos/Robotica/Pieza2.html",
     },
     {
         imageSrc: "/Todos-los-Trabajos/Robotica/imagene-Robotica/9.jpg",
         title: "Simulacion de piezas en Robotstudio",
         description: "Simulacion de pieza 3",
-        link: "/Todos-los-Trabajos/Robotica/Pieza3.html"
+        link: "/Todos-los-Trabajos/Robotica/Pieza3.html",
     },
     {
         imageSrc: "/Todos-los-Trabajos/Robotica/imagene-Robotica/10.jpg",
         title: "Simulacion de piezas en Robotstudio",
         description: "Simulacion de pieza 4",
-        link: "/Todos-los-Trabajos/Robotica/Pieza4.html"
+        link: "/Todos-los-Trabajos/Robotica/Pieza4.html",
     },
     {
         imageSrc: "/Todos-los-Trabajos/Robotica/imagene-Robotica/12.jpg",
         title: "Simulacion de piezas en Robotstudio",
         description: "Simulacion de pieza 5",
-        link: "/Todos-los-Trabajos/Robotica/Pieza5.html"
+        link: "/Todos-los-Trabajos/Robotica/Pieza5.html",
     },
     {
         imageSrc: "/Todos-los-Trabajos/Robotica/imagene-Robotica/14.jpg",
         title: "Simulacion de piezas en Robotstudio",
         description: "Simulacion de pieza 6",
-        link: "/Todos-los-Trabajos/Robotica/Pieza6.html"
+        link: "/Todos-los-Trabajos/Robotica/Pieza6.html",
     },
-    //Robotica final 
+    //Robotica final
 
-
-    //microcontroladores Inicio 
+    //microcontroladores Inicio
     {
-        imageSrc: "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/2.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/2.jpg",
         title: "Control de Motor con LabVIEW y Sensores ",
         description: "Programación en LabVIEW 1",
-        link: "/Todos-los-Trabajos/Microcontroladores/Pieza1.html"
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/1.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/1.jpg",
         title: "Control de Motor con LabVIEW y Sensores ",
         description: "Programación en LabVIEW 2",
-        link: "/Todos-los-Trabajos/Microcontroladores/Pieza1.html"
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza1.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/4.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/4.jpg",
         title: "Registro de Datos de Potenciómetro en LabVIEW ",
         description: "Programación en LabVIEW 3",
-        link: "/Todos-los-Trabajos/Microcontroladores/Pieza3.html"
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza3.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/5.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/5.jpg",
         title: "Desarrollo del Controlador de Luces LED en Arduino ",
         description: "Programación en Arduino 1",
-        link: "/Todos-los-Trabajos/Microcontroladores/Pieza4.html"
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza4.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/10.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/10.jpg",
         title: "Desarrollo del Controlador de Luces LED en Arduino ",
         description: "Programación en Arduino 1",
-        link: "/Todos-los-Trabajos/Microcontroladores/Pieza5.html"
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza5.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/12.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/12.jpg",
         title: "Certificación internacional en el programa LabVIEW",
         description: "Examen",
-        link: "/Todos-los-Trabajos/Microcontroladores/Pieza6.html"
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza6.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/16.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/16.jpg",
         title: "Brazo robótico",
         description: "Programación de brazo robótico",
-        link: "/Todos-los-Trabajos/Microcontroladores/Pieza7.html"
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza7.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/19.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/19.jpg",
         title: "Perforar una placa de metal",
         description: "Fresadora",
-        link: "/Todos-los-Trabajos/Microcontroladores/Pieza8.html"
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza8.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/20.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/20.jpg",
         title: "Fabricación de uno engrané ",
         description: "Torno",
-        link: "/Todos-los-Trabajos/Microcontroladores/Pieza9.html"
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza9.html",
     },
     {
-        imageSrc: "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/21.jpg",
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/21.jpg",
         title: "Automatización en TIA Portal ",
         description: "Banda transportadora equipada con dos sensores",
-        link: "/Todos-los-Trabajos/Microcontroladores/Pieza10.html"
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza10.html",
     },
-
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/25.png",
+        title: "Automatización en LabVIEW ",
+        description: "Contador del 0 al 9999 en LabVIEW",
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza11.html",
+    },
 ];
 
 let videosPerPage = 8;
@@ -679,7 +774,9 @@ function loadPage() {
 loadPage();
 
 // Actualizar la paginación cada vez que se navega a una nueva página
-document.querySelector("#pagination-info").addEventListener("click", updatePagination);
+document
+    .querySelector("#pagination-info")
+    .addEventListener("click", updatePagination);
 
 // Botón de siguiente página
 const nextButton = document.querySelector("#next-button");
@@ -707,9 +804,10 @@ searchInput.addEventListener("input", () => {
     if (searchTerm === "") {
         videos = videosBackup; // Restaurar la lista original de videos si el campo de búsqueda está vacío
     } else {
-        videos = videosBackup.filter(video =>
-            video.title.toLowerCase().includes(searchTerm) ||
-            video.description.toLowerCase().includes(searchTerm)
+        videos = videosBackup.filter(
+            (video) =>
+                video.title.toLowerCase().includes(searchTerm) ||
+                video.description.toLowerCase().includes(searchTerm)
         );
     }
 
@@ -730,27 +828,27 @@ setInterval(() => {
 }, 30000); // Reiniciar la búsqueda cada 30 segundos
 
 // Espera a que el DOM esté completamente cargado
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     // Obtén todas las imágenes de video
-    const thumbnails = document.querySelectorAll('.video-thumbnail');
+    const thumbnails = document.querySelectorAll(".video-thumbnail");
     // Obtén todos los títulos de video
-    const titles = document.querySelectorAll('.video-title');
+    const titles = document.querySelectorAll(".video-title");
 
     // Agrega un evento de clic a cada imagen de video
-    thumbnails.forEach(function(thumbnail) {
-        thumbnail.addEventListener('click', function() {
+    thumbnails.forEach(function (thumbnail) {
+        thumbnail.addEventListener("click", function () {
             // Obtén la URL del video desde el atributo 'href' del elemento padre 'a' (si lo tiene)
-            const videoUrl = this.parentElement.getAttribute('href');
+            const videoUrl = this.parentElement.getAttribute("href");
             // Redirige al usuario a la URL del video
             window.location.href = videoUrl;
         });
     });
 
     // Agrega un evento de clic a cada título de video
-    titles.forEach(function(title) {
-        title.addEventListener('click', function() {
+    titles.forEach(function (title) {
+        title.addEventListener("click", function () {
             // Obtén la URL del video desde el atributo 'href' del elemento padre 'a' (si lo tiene)
-            const videoUrl = this.parentElement.getAttribute('href');
+            const videoUrl = this.parentElement.getAttribute("href");
             // Redirige al usuario a la URL del video
             window.location.href = videoUrl;
         });
@@ -767,9 +865,9 @@ loadMoreBtn2.onclick = () => {
     }
     currentItem2 += 4;
     if (currentItem2 >= boxes.length) {
-        loadMoreBtn2.style.display = "none"
+        loadMoreBtn2.style.display = "none";
     }
-}
+};
 
 //boton 3
 let loadMoreBtn3 = document.querySelector("#load-more-3");
@@ -781,20 +879,19 @@ loadMoreBtn3.onclick = () => {
     }
     currentItem3 += 4;
     if (currentItem3 >= boxes.length) {
-        loadMoreBtn3.style.display = "none"
+        loadMoreBtn3.style.display = "none";
     }
-}
+};
 
 // regresa al inicio al presionar los botones de sig y pas
 var boton = document.getElementById("prev-button");
-boton.addEventListener("click", function() {
+boton.addEventListener("click", function () {
     window.scrollTo(0, 280);
 });
 var botonSiguiente = document.getElementById("next-button");
-botonSiguiente.addEventListener("click", function() {
+botonSiguiente.addEventListener("click", function () {
     window.scrollTo(0, 280);
 });
-
 
 function createPageButton(page) {
     const button = document.createElement("button");
@@ -809,4 +906,235 @@ function createPageButton(page) {
         button.classList.add("current-page");
     }
     return button;
+}
+
+let imagenes = [
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.4.jpg",
+        title: "Diseño Asistido por Computadora",
+        description: "Pieza 32 Autodesk Inventor Professional",
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.4.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.4.1.jpg",
+        title: "Diseño Asistido por Computadora",
+        description: "Pieza 32 Autodesk Inventor Professional",
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.4.1.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.5.jpg",
+        title: "Diseño Asistido por Computadora",
+        description: "Pieza 32 Autodesk Inventor Professional",
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.5.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.5.1.jpg",
+        title: "Diseño Asistido por Computadora",
+        description: "Pieza 32 Autodesk Inventor Professional",
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.5.1.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.6.jpg",
+        title: "Diseño Asistido por Computadora",
+        description: "Pieza 32 Autodesk Inventor Professional",
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.6.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.7.jpg",
+        title: "Diseño Asistido por Computadora",
+        description: "Pieza 32 Autodesk Inventor Professional",
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.7.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32.8.jpg",
+        title: "Diseño Asistido por Computadora",
+        description: "Pieza 32 Autodesk Inventor Professional",
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.8.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/32 completa.jpg",
+        title: "Diseño Asistido por Computadora",
+        description: "Pieza 32 Autodesk Inventor Professional",
+        link: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/Pieza32.completo.html",
+    },
+    // Diseño asistido por computadora final
+
+    //control lógico programable Inicio
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/control lógico programable/imagenes-controles-logicos/1.jpg",
+        title: "Programación Mchine Expert Basic",
+        description: "Programación 1",
+        link: "/Todos-los-Trabajos/control lógico programable/Pieza1.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/control lógico programable/imagenes-controles-logicos/4.jpg",
+        title: "Programación Mchine Expert Basic",
+        description: "Programación 2",
+        link: "/Todos-los-Trabajos/control lógico programable/Pieza2.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/control lógico programable/imagenes-controles-logicos/8.jpg",
+        title: "Programación Mchine Expert Basic",
+        description: "Programación 3",
+        link: "/Todos-los-Trabajos/control lógico programable/Pieza3.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/control lógico programable/imagenes-controles-logicos/12.jpg",
+        title: "Programación Mchine Expert Basic",
+        description: "Programación 4",
+        link: "/Todos-los-Trabajos/control lógico programable/Pieza4.html",
+    },
+    //control lógico programable Final
+
+    //microcontroladores Inicio
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/2.jpg",
+        title: "Control de Motor con LabVIEW y Sensores ",
+        description: "Programación en LabVIEW 1",
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza1.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/1.jpg",
+        title: "Control de Motor con LabVIEW y Sensores ",
+        description: "Programación en LabVIEW 2",
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza1.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/4.jpg",
+        title: "Registro de Datos de Potenciómetro en LabVIEW ",
+        description: "Programación en LabVIEW 3",
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza3.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/5.jpg",
+        title: "Desarrollo del Controlador de Luces LED en Arduino ",
+        description: "Programación en Arduino 1",
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza4.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/10.jpg",
+        title: "Desarrollo del Controlador de Luces LED en Arduino ",
+        description: "Programación en Arduino 1",
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza5.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/12.jpg",
+        title: "Certificación internacional en el programa LabVIEW",
+        description: "Examen",
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza6.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/16.jpg",
+        title: "Brazo robótico",
+        description: "Programación de brazo robótico",
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza7.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/19.jpg",
+        title: "Perforar una placa de metal",
+        description: "Fresadora",
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza8.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/20.jpg",
+        title: "Fabricación de uno engrané ",
+        description: "Torno",
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza9.html",
+    },
+    {
+        imageSrc:
+            "/Todos-los-Trabajos/Microcontroladores/imagenes-Microcontroladores/21.jpg",
+        title: "Automatización en TIA Portal ",
+        description: "Banda transportadora equipada con dos sensores",
+        link: "/Todos-los-Trabajos/Microcontroladores/Pieza10.html",
+    },
+];
+// Mezcla las imágenes en un orden aleatorio
+imagenes.sort(() => Math.random() - 0.5);
+
+let imagenesPorPagina = 4;
+let paginaActual = 1;
+
+function displayImagenes() {
+    const container = document.querySelector(".box-container-3");
+
+    const start = (paginaActual - 1) * imagenesPorPagina;
+    const end = start + imagenesPorPagina;
+    const displayedImagenes = imagenes.slice(start, end);
+
+    displayedImagenes.forEach((imagen) => {
+        const box = document.createElement("div");
+        box.classList.add("box-1");
+        box.style.display = "inline-block"; // Estilo en línea para mostrar en línea
+        box.innerHTML = `
+         <div class="content">
+             <a class="imagen-link" href="${imagen.link}">
+                 <img src="${imagen.imageSrc}" alt="imagenes">
+                 <h3>${imagen.title}</h3>
+                 <p>${imagen.description}</p>
+             </a>
+         </div>
+     `;
+        container.appendChild(box);
+    });
+
+    // Si no hay más imágenes para mostrar o se han mostrado 16, ocultar el botón "Cargar más"
+    if (end >= imagenes.length || paginaActual * imagenesPorPagina >= 12) {
+        document.querySelector("#load-more-3").style.display = "none";
+    } else {
+        document.querySelector("#load-more-3").style.display = "block"; // Asegura que el botón esté visible si hay más imágenes
+    }
+}
+
+// Cargar las primeras imágenes al cargar la página
+displayImagenes();
+
+// Cargar más imágenes cuando se presiona el botón "Cargar más"
+document.querySelector("#load-more-3").addEventListener("click", () => {
+    paginaActual++; // Incrementa la página actual
+    displayImagenes(); // Muestra las imágenes de la nueva página
+});
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    let i;
+    const slides = document.getElementsByClassName("my-slide");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+        slideIndex = 1;
+    }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(() => {
+        slides[slideIndex - 1].style.display = "none"; // Oculta la imagen actual después de 60 segundos
+        if (slideIndex >= slides.length) {
+            slideIndex = 0; // Reinicia el índice si se ha alcanzado el final de las imágenes
+        }
+        showSlides(); // Muestra la siguiente imagen
+    }, 2500); // Mostrar cada imagen durante 60 segundos (60000 milisegundos)
 }
