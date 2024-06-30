@@ -83,8 +83,12 @@ document.querySelector("#load-more-2").addEventListener("click", () => {
 
 
 let imagenes = [
-       //Diseño asistido por computadora Inicio
-       {
+    
+    
+    
+    
+    //Diseño asistido por computadora Inicio
+    {
         imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/1.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 1 Autodesk Inventor Professional",

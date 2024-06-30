@@ -3,11 +3,8 @@
 /* aqui esta la hoja principal */
 body {
     font-family: "Bebas Neue", sans-serif;
-    background: linear-gradient(90deg,
-            rgba(8, 8, 8, 1) 11%,
-            rgba(105, 111, 114, 1) 43%,
-            rgba(43, 185, 197, 1) 96%);
-    color: #0099ff;
+    background: #0D0D0D;
+    color: #77F329;
 }
 
 /* Este ese  scrollbar Inicio*/
@@ -51,7 +48,7 @@ body {
 
 .logo {
     font-size: 35px;
-    color: aliceblue;
+    color: #77F329;
 }
 
 /* estos son los links del inicio */
@@ -157,7 +154,7 @@ a:active {
 
 /* aqui se define el tamaño de los cuadros */
 .contenedordelodemas {
-    margin: 200px 100px;
+    margin: 100px 100px;
 
 }
 
@@ -218,7 +215,7 @@ a:active {
 
 .minombre {
     font-size: 70px;
-    color: white;
+    color: #77F329;
     /* Color de la letra */
 }
 
@@ -425,6 +422,13 @@ a:active {
         justify-content: center;
     }
 
+    /* aqui se define el tamaño de los cuadros */
+.contenedordelodemas {
+    margin: 90px 100px;
+
+}
+
+
     /* !letras de abajo Inicio */
     .footer {
         font-size: 1.2em;
@@ -526,7 +530,7 @@ a:active {
     }
 
     .minombre {
-        font-size: 80px;
+        font-size: 60px;
         color: white;
         /* Color de la letra */
     }
@@ -611,6 +615,14 @@ a:active {
     }
 
     /* ! Cambios en la posición de la foto y el texto en pantallas pequeñas Final*/
+
+
+    /* aqui se define el tamaño de los cuadros */
+.contenedordelodemas {
+    margin:120px 100px;
+
+}
+
 }
 
 /* Partes de celular  Fin  */
@@ -750,7 +762,7 @@ a:active {
 
     /* estas son las letras de las mejores peliculas LAs mejores peiliculas */
     .header-2 h1 {
-        color: floralwhite;
+        color: #77F329;
         font-size: 50px;
         line-height: 60px;
     }

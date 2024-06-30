@@ -4,7 +4,7 @@
 /* aqui esta la hoja principal */
 body {
     font-family: 'Bebas Neue', sans-serif;
-    background: linear-gradient(90deg, rgba(8, 8, 8, 1) 11%, rgba(105, 111, 114, 1) 43%, rgba(43, 185, 197, 1) 96%);
+    background: #0D0D0D;
     color: blue;
 }
 
@@ -59,7 +59,7 @@ body {
 
 .logo {
     font-size: 35px;
-    color: aliceblue;
+    color: #77F329;
 }
 
 /* estos son los links del inicio */
@@ -490,7 +490,7 @@ a:active {
 
 .minombre {
     font-size: 70px;
-    color: white;
+    color: #77F329;
     /* Color de la letra */
     font-family: "Sedan", serif;
     font-weight: 400;
@@ -508,6 +508,7 @@ a:active {
     /* Espacio entre el texto y el borde izquierdo */
     font-size: 35px;
     /* Cambiar el tamaño de la fuente del texto */
+    color: #77F329;
 }
 
 
@@ -543,6 +544,7 @@ a:active {
     /* Borde redondeado */
     font-size: 20px;
     /* Tamaño de la letra */
+
 }
 
 /* Final del portafolio*/
@@ -654,8 +656,6 @@ a:active {
 
 /* Letras de la pagina sobre MI Incio*/
 .containerletras {
-    width: 95%;
-    padding: 80px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;

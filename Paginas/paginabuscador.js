@@ -1,5 +1,79 @@
 // Datos de los videos
 let videos = [
+    //! Programas de phyton 
+    {
+        imageSrc: "/Todos-los-Trabajos/PPython/Imagenes-phyton/1.jpg",
+        title: "Programación con Python",
+        description: "Realiza un código en lenguaje Python que muestre los números primos del 2 al 100",
+        link: "/Todos-los-Trabajos/PPython/Pieza1.html"
+    },
+    {
+        imageSrc: "/Todos-los-Trabajos/PPython/Imagenes-phyton/2.jpg",
+        title: "Programación con Python",
+        description: "Realiza un código de Python que calcule el factorial de un número que ingrese el usuario",
+        link: "/Todos-los-Trabajos/PPython/Pieza2.html"
+    },
+    {
+        imageSrc: "/Todos-los-Trabajos/PPython/Imagenes-phyton/3.jpg",
+        title: "Programación con Python",
+        description: " Para mostrar el nombre, ya establecí una variable en la cual guardé el nombre, apellido paterno y apellido paterno, y al final solo imprimimos las 3 variables en una misma línea",
+        link: "/Todos-los-Trabajos/PPython/Pieza3.html"
+    },
+    {
+        imageSrc: "/Todos-los-Trabajos/PPython/Imagenes-phyton/4.jpg",
+        title: "Programación con Python",
+        description: "Saludo Personalizado en Python con Nombre de Usuario",
+        link: "/Todos-los-Trabajos/PPython/Pieza4.html"
+    },
+    {
+        imageSrc: "/Todos-los-Trabajos/PPython/Imagenes-phyton/5.jpg",
+        title: "Programación con Python",
+        description: "Cálculo de Factorial, División y Verificación de Primalidad en Python",
+        link: "/Todos-los-Trabajos/PPython/Pieza5.html"
+    },
+    {
+        imageSrc: "/Todos-los-Trabajos/PPython/Imagenes-phyton/6.jpg",
+        title: "Programación con Python",
+        description: "Automatización de Inserción y Consulta de Usuarios en MySQL con Python y pymysq",
+        link: "/Todos-los-Trabajos/PPython/Pieza6.html"
+    },
+    {
+        imageSrc: "/Todos-los-Trabajos/PPython/Imagenes-phyton/8.jpg",
+        title: "Programación con Python",
+        description: "Registro y Gestión de Mantenimiento de Partes de Máquinas en MySQL con Python y pymysql",
+        link: "/Todos-los-Trabajos/PPython/Pieza7.html"
+    },
+    {
+        imageSrc: "/Todos-los-Trabajos/PPython/Imagenes-phyton/10.jpg",
+        title: "Programación con Python",
+        description: "Escribir un pequeño programa donde: Se ingresa el año en curso. Se ingresa el nombre y el año de nacimiento de tres personas.  Se calcula cuántos años cumplirán durante el año en curso. Se imprime en pantalla",
+        link: "/Todos-los-Trabajos/PPython/Pieza8.html"
+    },
+    {
+        imageSrc: "/Todos-los-Trabajos/PPython/Imagenes-phyton/11.jpg",
+        title: "Programación con Python",
+        description: "Escribe un programa (Algoritmo y Diagrama de Flujo) que te permita jugar un juego de mente",
+        link: "/Todos-los-Trabajos/PPython/Pieza9.html"
+    },
+    {
+        imageSrc: "/Todos-los-Trabajos/PPython/Imagenes-phyton/12.jpg",
+        title: "Programación con Python",
+        description: "Definir una función es palíndromo () que reconoce palíndromos (es decir, palabras que tienen el mismo aspecto escritas invertidas), ejemplo: ",
+        link: "/Todos-los-Trabajos/PPython/Pieza10.html"
+    },
+    {
+        imageSrc: "/Todos-los-Trabajos/PPython/Imagenes-phyton/13.jpg",
+        title: "Programación con Python",
+        description: "Crear una base de datos que contenga una tabla de 120 valores aleatorios entre 7 y 10 las cuales representan las calificaciones de 6 materias de 20 alumnos de un salón de Universidad",
+        link: "/Todos-los-Trabajos/PPython/Pieza11.html"
+    },
+    {
+        imageSrc: "/Todos-los-Trabajos/PPython/Imagenes-phyton/15.jpg",
+        title: "Programación con Python",
+        description: "Avance de Proyecto",
+        link: "/Todos-los-Trabajos/PPython/Pieza12.html"
+    },
+    
     //Diseño asistido por computadora Inicio
     {
         imageSrc:
