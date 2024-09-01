@@ -1,5 +1,11 @@
 let videos = [
     {
+        imageSrc: "/Todos-los-Trabajos/control lógico programable/imagenes-controles-logicos/23.png",
+        title: "Programación Tia portal",
+        description: "Interfaz Web para Control de PLC en TIA Portal",
+        link: "/Todos-los-Trabajos/control lógico programable/Pieza5.html"
+    },
+    {
         imageSrc: "/Todos-los-Trabajos/Trabajos-Diseño-Asistido/imagenes-Diseño Asistido/31.completa.jpg",
         title: "Diseño Asistido por Computadora",
         description: "Pieza 31 Autodesk Inventor Professional",
@@ -83,7 +89,12 @@ document.querySelector("#load-more-2").addEventListener("click", () => {
 
 
 let imagenes = [
-    
+    {
+        imageSrc: "/Todos-los-Trabajos/control lógico programable/imagenes-controles-logicos/23.png",
+        title: "Programación Tia portal",
+        description: "Programación 5",
+        link: "/Todos-los-Trabajos/control lógico programable/Pieza5.html"
+    },
     
     
     
@@ -527,7 +538,13 @@ let imagenes = [
         title: "Programación Mchine Expert Basic",
         description: "Programación 4",
         link: "/Todos-los-Trabajos/control lógico programable/Pieza4.html"
-    }, 
+    },
+    {
+        imageSrc: "/Todos-los-Trabajos/control lógico programable/imagenes-controles-logicos/23.png",
+        title: "Programación Tia portal",
+        description: "Interfaz Web para Control de PLC en TIA Portal",
+        link: "/Todos-los-Trabajos/control lógico programable/Pieza5.html"
+    },
     //control lógico programable Final
     
     //CNC

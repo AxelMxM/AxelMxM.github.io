@@ -1,5 +1,14 @@
 // Datos de los videos
 let videos = [
+    //! Tia portal Html
+    {
+        imageSrc: "/Todos-los-Trabajos/control lógico programable/imagenes-controles-logicos/23.png",
+        title: "Programación Tia portal",
+        description: "Interfaz Web para Control de PLC en TIA Portal",
+        link: "/Todos-los-Trabajos/control lógico programable/Pieza5.html"
+    },
+
+    
     //! Programas de phyton 
     {
         imageSrc: "/Todos-los-Trabajos/PPython/Imagenes-phyton/1.jpg",

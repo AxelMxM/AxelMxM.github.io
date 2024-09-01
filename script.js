@@ -1,67 +1,6 @@
 // Datos de los videos
 let videos = [
-    {
-        imageSrc: "imagenes/1.jpg",
-        title: "Pelicula HD 1",
-        description: "Axel",
-        link: "medicina/tos.html"
-    },{
-        imageSrc: "imagenes/2.jpg",
-        title: "axel",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique deleniti cum at nesciunt cumque voluptatem tempore quia architecto",
-        link: "medicina/tos.html"
-    },{
-        imageSrc: "imagenes/3.jpg",
-        title: " 1",
-        description: "axel",
-        link: "https://www.ejemplo.com/pelicula-hd-1"
-    },{
-        imageSrc: "imagenes/4.jpg",
-        title: "2",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique deleniti cum at nesciunt cumque voluptatem tempore quia architecto",
-        link: "https://www.ejemplo.com/pelicula-hd-1"
-    },{
-        imageSrc: "imagenes/5.jpg",
-        title: "3",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique deleniti cum at nesciunt cumque voluptatem tempore quia architecto",
-        link: "https://www.ejemplo.com/pelicula-hd-1"
-    },{
-        imageSrc: "imagenes/6.jpg",
-        title: "Axel",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique deleniti cum at nesciunt cumque voluptatem tempore quia architecto",
-        link: "https://www.ejemplo.com/pelicula-hd-1"
-    },{
-        imageSrc: "imagenes/7.jpg",
-        title: "Pelicula HD 1",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique deleniti cum at nesciunt cumque voluptatem tempore quia architecto",
-        link: "https://www.ejemplo.com/pelicula-hd-1"
-    },{
-        imageSrc: "imagenes/8.jpg",
-        title: "Pelicula HD 1",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique deleniti cum at nesciunt cumque voluptatem tempore quia architecto",
-        link: "https://www.ejemplo.com/pelicula-hd-1"
-    },{
-        imageSrc: "imagenes/9.jpg",
-        title: "Pelicula HD 1",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique deleniti cum at nesciunt cumque voluptatem tempore quia architecto",
-        link: "https://www.ejemplo.com/pelicula-hd-1"
-    },{
-        imageSrc: "imagenes/10.jpg",
-        title: "Pelicula HD 1",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique deleniti cum at nesciunt cumque voluptatem tempore quia architecto",
-        link: "https://www.ejemplo.com/pelicula-hd-1"
-    },{
-        imageSrc: "imagenes/.jpg",
-        title: "Pelicula HD 1",
-        description: "axel",
-        link: "https://www.ejemplo.com/pelicula-hd-1"
-    },{
-        imageSrc: "imagenes/2.jpg",
-        title: "Axel",
-        description: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique deleniti cum at nesciunt cumque voluptatem tempore quia architecto",
-        link: "https://www.ejemplo.com/pelicula-hd-1"
-    },
-    // Agrega más objetos de video según sea necesari
+
 ];
 
 
