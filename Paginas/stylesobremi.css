@@ -1,0 +1,1934 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/* aqui esta la hoja principal */
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    background: #0D0D0D;
+    color: blue;
+}
+
+
+/* Este ese  scrollbar Inicio*/
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: none;
+}
+
+/* Este ese  scrollbar Final*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+/* aqui se define el tamaño de los cuadros */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+
+}
+
+/* aqui se define el tamaño de los cuadros */
+.contenedordelodemas {
+    margin: 200px 100px;
+}
+
+
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 35px;
+    color: #77F329;
+}
+
+/* estos son los links del inicio */
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+/* estos son los links del inicio */
+.menu .navbar ul li a {
+    font-size: 22px;
+    padding: 20px;
+    color: aliceblue;
+    display: block;
+}
+
+/* estos son los links del inicio aqui le cambio el color */
+.menu .navbar ul li a:hover {
+    color: #66ff33;
+
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+/* este es el tamaño  del contenido son las letras de venom */
+.header-content {
+    display: flex;
+    width: 100%;
+}
+
+/* estas son el tamaño que ocupa las letras de venom */
+.header-1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: flex-end;
+}
+
+/* imagen sobre las letras de venom */
+.header-1 img {
+    width: 300px;
+}
+
+/* estas son las letras de la portada sobre venom */
+.header-2 {
+    width: 50%;
+    margin-top: 80px;
+    text-align: end;
+}
+
+/* estas son las letras de las mejores peliculas LAs mejores peiliculas */
+.header-2 h1 {
+    color: floralwhite;
+    font-size: 90px;
+    line-height: 80px;
+}
+
+/* estas es la imagen de Play por que le llamos geder en html en widt es lo que ocupa de tamaño */
+.header-2 img {
+    width: 70px;
+}
+
+
+/* este es el orden de las peliculas */
+.movies {
+    padding: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #77F329;
+}
+
+/* esta es la separacion del los videos y inicio     */
+hr {
+    border: 2px solid white;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.box-container-1,
+.box-container-2,
+.box-container-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    border-radius: 5px;
+    z-index: 1000;
+    display: none;
+}
+
+/* estas son los videos que salen en el inicio - puden ser mas  */
+
+
+/* estas son los videos que salen en el inicio - puden ser mas  */
+.box-2:nth-child(1),
+.box-2:nth-child(2),
+.box-2:nth-child(3),
+.box-2:nth-child(4) {
+    display: inline-block;
+}
+
+/* estas son los videos que salen en el inicio - puden ser mas  */
+.box-3:nth-child(1),
+.box-3:nth-child(2),
+.box-3:nth-child(3),
+.box-3:nth-child(4) {
+    display: inline-block;
+}
+
+/* este es el boton de cargar mas  (border-radius: 15px; con esto redondeas las escina) */
+.load-more {
+    margin-top: 40px;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: 1px solid black;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.load-more:hover {
+    background-color: #66ff33;
+    color: white;
+}
+
+/* aqui estas el tamaño de las */
+.content img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* estas son las letras de los videos de abajo  */
+.content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.content {
+    color: white;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    margin-top: 100px;
+    border-top: 2px solid white;
+
+}
+
+.footer ul {
+    display: flex;
+}
+
+.footer h3 {
+    font-size: 30px;
+
+}
+
+.footer a {
+    color: aliceblue;
+    font-size: 20px;
+    margin-right: 20px;
+    display: block;
+}
+
+.footer a:hover {
+    color: #66ff33
+}
+
+/* Estilos para los enlaces Inicio */
+a {
+    color: #f2f2f2;
+    /* Color del texto del enlace */
+    text-decoration: none;
+    /* Eliminar el subrayado por defecto */
+    transition: color 0.3s ease;
+    /* Transición suave para el cambio de color */
+}
+
+/* Estilos para los enlaces cuando se les pasa el cursor por encima */
+a:hover {
+    color: #0056b3;
+    /* Cambiar el color del texto cuando el cursor está sobre el enlace */
+}
+
+/* Estilos para los enlaces cuando están activos (haciendo clic) */
+a:active {
+    color: #004080;
+    /* Cambiar el color del texto cuando se hace clic en el enlace */
+}
+
+/* Estilos para los enlaces Fin */
+
+
+/* Buscador Inicio */
+.search-container {
+    display: flex;
+    flex-direction: row;
+    /* Cambiado de column a row */
+    justify-content: center;
+    /* Centra los elementos horizontalmente */
+    gap: 10px;
+}
+
+/* Estilo para el campo de entrada */
+#search-input {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para el botón de búsqueda */
+#search-button {
+    height: 30px;
+    background-color: blue;
+    /* color de fondo */
+    color: white;
+    /* color del texto */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+#search-button:hover {
+    background-color: #000099;
+    /* color de fondo cuando el mouse está encima */
+}
+
+/* Buscador Fin */
+
+/* Boton sig y boton atras del paginado Inicio */
+.pagination-container1 {
+    display: flex;
+    justify-content: flex-start;
+    /* Esto moverá los elementos al lado izquierdo del contenedor */
+    align-items: center;
+    gap: 0.5px;
+    /* Reducido a 0.5px */
+    margin: 0 auto;
+    /* Centra el contenedor en la página */
+}
+
+.pagination-button1 {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    /* color de fondo */
+    color: white;
+    /* color del texto */
+    cursor: pointer;
+}
+
+.pagination-button1:hover {
+    background-color: #000099;
+    /* color de fondo cuando el mouse está encima */
+}
+
+.pagination-container2 {
+    display: flex;
+    justify-content: flex-end;
+    /* Esto moverá los elementos al lado derecho del contenedor */
+    align-items: center;
+    gap: 0.5px;
+    /* Reducido a 0.5px */
+    margin: 0 auto;
+    /* Centra el contenedor en la página */
+}
+
+.pagination-button2 {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    /* color de fondo */
+    color: white;
+    /* color del texto */
+    cursor: pointer;
+}
+
+.pagination-button2:hover {
+    background-color: #000099;
+    /* color de fondo cuando el mouse está encima */
+}
+
+.pagination-wrapper {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    /* Ajusta el ancho del contenedor al 100% del ancho de su contenedor padre */
+    margin: auto;
+    /* Centra el contenedor en la página */
+}
+
+/* Boton sig y boton atras del paginado Final */
+
+/* Botones de la pginas  Inicio*/
+.pagination-container {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pagination-container {
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#pagination-info button {
+    background-color: #000099;
+    /* Verde */
+    border: none;
+    color: white;
+    padding: 8px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    /* Bordes redondeados */
+}
+
+#pagination-info button:hover {
+    background-color: blue;
+    color: black;
+    border: 2px solid blue;
+    /* Verde */
+}
+
+#pagination-info .current-page {
+    background-color: #0099ff;
+    /* Rojo */
+    border-radius: 12px;
+    /* Bordes redondeados */
+}
+
+/* Botones de la pginas Final*/
+
+
+
+
+/* Estilos para la sección de inicio */
+#inicio {
+    display: flex;
+    flex-direction: row-reverse;
+    /* Invertir el orden de los elementos */
+    justify-content: center;
+    /* Centrar horizontalmente el contenido */
+    align-items: center;
+    /* Centrar verticalmente el contenido */
+    height: 100vh;
+    /* Ajustar la altura al 100% de la ventana */
+}
+
+
+
+/* Inicio del portafolio */
+.foto img {
+    width: 500px;
+    /* Cambiar el ancho de la imagen */
+    height: auto;
+    /* Mantener la proporción de aspecto */
+    margin-left: auto;
+    /* Mover la imagen hacia el centro */
+    margin-right: 15px;
+    /* Espacio entre la imagen y el texto */
+}
+
+
+/* Estilos para el texto */
+.nombreyquehago {
+    flex: 1;
+    /* El texto ocupa todo el espacio restante */
+    text-align: left;
+    /* Alinear el texto a la izquierda */
+    margin-left: 20px;
+    /* Espacio entre el texto y el borde izquierdo */
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+/* Estilos para el párrafo */
+.estudiante {
+    font-size: 25px;
+    /* Tamaño de la letra */
+    color: white;
+    /* Color de la letra */
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.minombre {
+    font-size: 70px;
+    color: #77F329;
+    /* Color de la letra */
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Estilos para el texto */
+.nombreyquehago {
+    flex: 1;
+    /* El texto ocupa todo el espacio restante */
+    text-align: left;
+    /* Alinear el texto a la izquierda */
+    margin-left: 5px;
+    /* Espacio entre el texto y el borde izquierdo */
+    font-size: 35px;
+    /* Cambiar el tamaño de la fuente del texto */
+    color: #77F329;
+}
+
+
+
+/* Estilos para los enlaces */
+.enlace-descargar {
+    display: inline-block;
+    /* Mostrar en línea horizontal */
+    margin-right: 10px;
+    /* Espacio entre los enlaces */
+    padding: 10px;
+    /* Espacio interno */
+    border: 2px solid black;
+    /* Contorno */
+    border-radius: 5px;
+    /* Borde redondeado */
+    font-size: 20px;
+    /* Tamaño de la letra */
+    background-color: blue;
+    /* Color de fondo */
+}
+
+/* Estilos para los enlaces */
+.enlace-sobre-mi {
+    display: inline-block;
+    /* Mostrar en línea horizontal */
+    margin-right: 10px;
+    /* Espacio entre los enlaces */
+    padding: 10px;
+    /* Espacio interno */
+    /* Contorno */
+    border-radius: 5px;
+    /* Borde redondeado */
+    font-size: 20px;
+    /* Tamaño de la letra */
+
+}
+
+/* Final del portafolio*/
+
+
+
+
+/* Letras de la  parte de abajo del todo inicio*/
+.hechaspormi {
+    text-align: center;
+    /* Centra el contenido */
+    color: white;
+    /* Cambia el color del texto a blanco */
+}
+
+/* esta es las letras echas por mi final*/
+
+
+/* estas son las letras de contaxto inicio*/
+.contactodeabajo {
+    text-align: center;
+    /* Centra el contenido */
+    color: white;
+    /* Cambia el color del texto a blanco */
+}
+
+.contactodeabajo p {
+    color: white;
+    /* Cambia el color del texto a blanco */
+}
+
+.contact-info {
+    display: inline-block;
+}
+
+.contact-info i,
+.contact-info p {
+    display: inline;
+    margin-right: 5px;
+    /* Ajusta el margen según sea necesario */
+    color: white;
+    /* Cambia el color del icono y el número de teléfono a blanco */
+}
+
+.contact-info p {
+    color: white;
+    /* Cambia el color del número de teléfono a blanco */
+}
+
+.email {
+    display: inline-flex;
+    /* Cambiado a inline-flex para mantener los elementos en línea */
+    align-items: center;
+    /* Centrar verticalmente los elementos */
+    color: white;
+    /* Cambiar el color del texto a blanco */
+}
+
+.email p {
+    margin: 0;
+    /* Eliminar el margen del párrafo para evitar espacio adicional */
+}
+
+.email i {
+    color: white;
+    /* Cambiar el color del icono a blanco */
+    margin-right: 5px;
+    /* Ajustar el margen derecho entre el icono y el texto */
+}
+
+
+.contact-link {
+    background-color: blue;
+    color: white;
+    /* Cambia el color del texto a blanco */
+    padding: 10px 30px;
+    /* Agrega espacio interno al enlace */
+    border-radius: 15px;
+    /* Redondea los bordes del enlace */
+    text-decoration: none;
+    /* Quita la subrayado predeterminado */
+}
+
+/* estas son las letras de contaxto final*/
+
+
+
+/*esto es lo que se hacer inicio*/
+.loquehago {
+    text-align: center;
+    /* Centra el contenido */
+    color: white;
+    /* Cambia el color del texto a blanco */
+}
+
+.loquehago h3 {
+    margin-bottom: 10px;
+    /* Añade espacio debajo del título */
+}
+
+.loquehago p {
+    margin-bottom: 5px;
+    /* Añade espacio debajo de cada párrafo */
+}
+
+/* Letras de la  parte de abajo del todo Final*/
+
+
+
+/* Letras de la pagina sobre MI Incio*/
+.containerletras {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* Esto centra horizontalmente el contenedor en la página */
+}
+
+.contentletras {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.titleletras {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.textletras {
+    font-size: 20px;
+    color: white;
+}
+
+/* container de letars Final*/
+
+/* esto es las barras y la iamgen incio*/
+.skill {
+    display: flex;
+    flex-direction: column;
+    /* Cambiado de 'row' a 'column' */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+    margin-right: 300px;
+    /* Se ajustó el margen a la derecha */
+}
+
+
+
+.espaciodelasbarras {
+    margin-left: 130px;
+    /* Se agregó margen a la izquierda */
+}
+
+
+
+.aboutMe__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.imagennn img {
+    display: block;
+    margin-left: 150px;
+    /* Esto moverá la imagen 30px a la derecha */
+    width: 500px;
+    /* Ajusta el valor según el ancho que quieras para la imagen */
+    height: auto;
+    /* Esto mantendrá la proporción de la imagen */
+}
+
+.progress__bar {
+    width: 100%;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.progress__bar span {
+    display: block;
+    height: 10px;
+    width: 0;
+    background-color: #0000ff;
+    /* Cambiado a tu nuevo color */
+    border-radius: 5px;
+    transition: width 1s ease-in-out;
+}
+
+
+.progress__bar.Programación span {
+    width: 90%;
+    /* Cambiado a 100% para llenar la barra completamente */
+}
+
+.progress__bar.Liderazgo span {
+    width: 85%;
+    /* Cambiado a 100% para llenar la barra completamente */
+}
+
+.progress__bar.Comunicación_asertiva span {
+    width: 90%;
+    /* Cambiado a 100% para llenar la barra completamente */
+}
+
+.progress__bar.Gestión_de_Recursos span {
+    width: 90%;
+    /* Cambiado a 100% para llenar la barra completamente */
+}
+
+.progress__bar.Trabajo_en_equipo span {
+    width: 80%;
+    /* Cambiado a 100% para llenar la barra completamente */
+}
+
+.progress__bar.Resolución span {
+    width: 97%;
+    /* Cambiado a 100% para llenar la barra completamente */
+}
+
+.progress__bar.lógica span {
+    width: 95%;
+    /* Cambiado a 100% para llenar la barra completamente */
+}
+
+.habilidadesletrasp {
+    color: white;
+}
+
+.habilidaesh {
+    color: white;
+    font-size: 55px;
+}
+
+/* Letras de la pagina sobre MI Incio*/
+
+
+
+
+
+/*estas es la pagina de mis servisios Inicio*/
+.services__card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 20px;
+    /* Agrega una separación de 10px */
+    border: 1px solid black;
+    /* Añade un borde */
+    background-color: #4d4d4d;
+    /* Agrega un color de fondo verde */
+    width: 375px;
+    /* Aumenta el ancho de la tarjeta */
+    height: 65px;
+    /* Aumenta la altura de la tarjeta */
+    display: flex;
+    /* Para que los elementos internos se muestren en línea */
+    align-items: center;
+    /* Para alinear verticalmente los elementos internos */
+}
+
+.service__logo {
+    position: relative;
+    margin-right: 10px;
+    margin: 30px;
+    z-index: 1;
+    /* Asegura que el logo siempre esté encima del círculo */
+}
+
+.service__logo i {
+    background-color: transparent;
+    /* Asegura que el logo tenga un fondo transparente */
+}
+
+.service__logo::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    /* Aumenta el tamaño del círculo a 30px */
+    height: 50px;
+    /* Aumenta el tamaño del círculo a 30px */
+    border-radius: 50%;
+    background-color: #0d0d0d;
+    z-index: -1;
+    /* Asegura que el círculo esté detrás del logo */
+}
+
+.card:hover {
+    background-color: blue;
+    /* Cambia el color de fondo a azul cuando se pasa el cursor */
+}
+
+.card:hover .service__logo::before {
+    background-color: white;
+}
+
+.card:hover .service__logo i {
+    color: black;
+}
+
+/*estas es la pagina de mis servisios Final*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*esto es el contenedor de las letrsa de los trabajos Incio*/
+.box-4 .content {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.box-4 .content img {
+    border-radius: 5%;
+    /* Esto redondea la imagen */
+    width: 100%;
+    /* Esto permite cambiar el tamaño de la imagen */
+    height: auto;
+    /* Esto mantiene la proporción de la imagen al cambiar su tamaño */
+}
+
+/*esto es el contenedor de las letrsa de los trabajos Incio*/
+
+
+
+
+
+/*eSTO ES LAS IMAGENES QUE SE MUEVEN iNICOI*/
+.slideshow {
+    max-width: 1400px;
+    position: relative;
+    margin: auto;
+}
+
+.my-slide {
+    display: none;
+}
+
+.fade {
+    animation: fade 60s; /* Cambia el tiempo de transición aquí (en segundos) */
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+/*eSTO ES LAS IMAGENES QUE SE MUEVEN fINAL*/
+
+
+
+
+
+
+/* Partes de celular  Inicio  */
+@media (max-width:1280px) {
+
+    /*esta son las letras de las desmas pagignas donde muetras los trabajos inico*/
+    .box-4 .content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .box-4 .content img {
+        border-radius: 5%;
+        /* Esto redondea la imagen */
+        width: 100%;
+        /* Esto permite cambiar el tamaño de la imagen */
+        height: auto;
+        /* Esto mantiene la proporción de la imagen al cambiar su tamaño */
+    }
+
+    /*esta son las letras de las desmas pagignas donde muetras los trabajos Final*/
+
+
+    /* menu pequeño inicio */
+    .pequeño {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* menu pequeño final */
+
+
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: black;
+        display: none;
+        width: 100%;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+
+    /* Boton sig y boton atras del paginado Inicio */
+    .pagination-wrapper {
+        display: flex;
+        align-items: center;
+        width: 94%;
+        /* Ajusta el ancho del contenedor al 100% del ancho de su contenedor padre */
+        margin: auto;
+        /* Centra el contenedor en la página */
+    }
+
+    /* Boton sig y boton atras del paginado Final */
+
+
+
+
+    /* Botones de la pginas  Inicio*/
+    .pagination-container {
+        display: flex;
+        align-items: center;
+        gap: 0px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pagination-container {
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+
+    /*estas son las letras de abajo del todod Inicio*/
+    .footer {
+        font-size: 1.2em;
+        /* Hace las letras más pequeñas */
+    }
+
+    .loquehago {
+        display: none;
+    }
+
+
+    .contactodeabajo {
+        margin-bottom: 50px;
+        /* Añade una separación de 5px de arriba para abajo */
+    }
+
+    .hechaspormi {
+        margin-bottom: 0;
+        /* Remueve la separación de 5px de arriba para abajo */
+    }
+
+    /*estas son las letras de abajo del todod Final*/
+
+
+    /* las barras y las imagen  esta es la pagina de servicios Inicio*/
+    .skill {
+        display: flex;
+        flex-direction: column;
+        /* Cambiado de 'row' a 'column' */
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex: 1;
+        margin-right: 270px;
+        /* Se ajustó el margen a la derecha */
+    }
+
+
+    .espaciodelasbarras {
+        margin-left: auto;
+        /* Se agregó margen a la izquierda */
+        margin-right: auto;
+        /* Se agregó margen a la derecha */
+        width: 85%;
+    }
+
+    .aboutMe__content {
+        display: flex;
+        flex-direction: column;
+        /* Cambiado de 'row' a 'column' */
+        justify-content: center;
+        /* Centro verticalmente */
+        align-items: center;
+        /* Centro horizontalmente */
+    }
+
+    .imagennn {
+        display: none;
+    }
+
+    .habilidadesletrasp,
+    .habilidaesh {
+        color: white;
+        text-align: center;
+        /* Centra el texto horizontalmente */
+        display: flex;
+        /* Alinea verticalmente */
+        justify-content: center;
+        /* Centra verticalmente */
+    }
+
+    .habilidaesh {
+        font-size: 100px;
+    }
+
+    .habilidadesletrasp {
+        font-size: 20px;
+    }
+
+    /* las barras y las imagen  esta es la pagina de servicios Final*/
+
+
+    #pagination-info button {
+        /* Verde */
+        border: none;
+        color: white;
+        padding: 5px 36px;
+        /* Ajustado el padding para hacer el botón un poco más delgado y largo */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+        border-radius: 12px;
+        /* Bordes redondeados */
+    }
+
+    #pagination-info button:hover {
+        border: 2px solid;
+        /* Verde */
+    }
+
+    #pagination-info .current-page {
+        border-radius: 12px;
+    }
+
+    /* Botones de la pginas Final*/
+
+
+
+
+    #menu:checked~.navbar {
+        display: initial;
+    }
+
+    /* con el header-content contolas la barra donde salen las categorias */
+    .header-content {
+        flex-direction: column;
+        padding: 180px 30px 30px 30px;
+    }
+
+    .header-1 {
+        width: 100%;
+        align-items: center;
+    }
+
+    .header-2 {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    /* aqui es donde cambias el tamaño de las imagenes en celulra gg si quieres las imagenes mas chicas pudes poner 30px 100px y se haran mas chicas las imagenes*/
+    .movies {
+        padding: 25px;
+    }
+
+    .footer {
+        margin-top: 30px;
+        padding: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer ul {
+        margin-top: 15px;
+        justify-content: center;
+    }
+
+    .box-container-1,
+    .box-container-2,
+    .box-container-3 {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(130px, 1fr));
+        /* Cambiado a 2 columnas */
+        gap: 35px;
+        width: 90%;
+        /* Añadido para ocupar el 90% de la página */
+        margin: 0 auto;
+        /* Centrar horizontalmente */
+    }
+
+
+    
+    .card {
+            margin: 15px;
+            /* Agrega una separación de 10px */
+            border: 1px solid black;
+            /* Añade un borde */
+            background-color: #4d4d4d;
+            /* Agrega un color de fondo verde */
+            width: 350px;
+            /* Aumenta el ancho de la tarjeta */
+            height: 75px;
+            /* Aumenta la altura de la tarjeta */
+            display: flex;
+            /* Para que los elementos internos se muestren en línea */
+            align-items: center;
+            /* Para alinear verticalmente los elementos internos */
+    }
+}
+
+
+
+/* Inicio del portafolio portada */
+@media screen and (max-width: 770px) {
+
+    #inicio {
+        display: flex;
+        flex-direction: column;
+        /* Cambiar el orden de los elementos a columna */
+        justify-content: center;
+        /* Centrar horizontalmente el contenido */
+        align-items: center;
+        /* Centrar verticalmente el contenido */
+        height: 100vh;
+        /* Ajustar la altura al 100% de la ventana */
+        margin-top: 90px;
+        /* Agregar margen superior */
+    }
+
+    .foto img {
+        order: 1;
+        /* La imagen se mostrará primero */
+        width: 300px;
+        /* Cambiar el ancho de la imagen */
+        height: auto;
+        /* Mantener la proporción de aspecto */
+        margin-left: auto;
+        /* Mover la imagen hacia el centro */
+        margin-right: 15px;
+        /* Espacio entre la imagen y el texto */
+        margin-bottom: 20px;
+        /* Agregar margen inferior a la imagen */
+    }
+
+    /* Estilos para el texto */
+    .nombreyquehago {
+        order: 2;
+        /* El texto se mostrará después de la imagen */
+        flex: 1;
+        /* El texto ocupa todo el espacio restante */
+        text-align: left;
+        /* Alinear el texto a la izquierda */
+        margin-left: 5px;
+        /* Espacio entre el texto y el borde izquierdo */
+        font-size: 35px;
+        /* Cambiar el tamaño de la fuente del texto */
+    }
+
+    /* letras de abajo inicio */
+    .footer {
+        font-size: 1em;
+        /* Hace las letras más pequeñas */
+    }
+
+    .loquehago,
+    .contactodeabajo {
+        margin-bottom: 50px;
+        /* Añade una separación de 5px de arriba para abajo */
+    }
+
+    .hechaspormi {
+        margin-bottom: 0;
+        /* Remueve la separación de 5px de arriba para abajo */
+    }
+
+    /*Letras de abajo final*/
+
+    /* esto es las barras de skills y la iamgen Incio*/
+    .skill {
+
+        margin-right: 200px;
+        /* Se ajustó el margen a la derecha */
+    }
+
+    .habilidaesh {
+        font-size: 80px;
+    }
+
+    .habilidadesletrasp {
+        font-size: 20px;
+    }
+
+    /* esto es las barras de skills y la iamgen final*/
+
+      .card {
+            margin: 15px;
+            /* Agrega una separación de 10px */
+            border: 1px solid black;
+            /* Añade un borde */
+            background-color: #4d4d4d;
+            /* Agrega un color de fondo verde */
+            width: 240px;
+            /* Aumenta el ancho de la tarjeta */
+            height: 120px;
+            /* Aumenta la altura de la tarjeta */
+            display: flex;
+            /* Para que los elementos internos se muestren en línea */
+            align-items: center;
+            /* Para alinear verticalmente los elementos internos */
+    }
+}
+
+
+
+
+
+
+
+/* este solo se encarga de los celulares muy pequeñosssssssssssssssss con 320 px  */
+@media screen and (max-width: 750px) {
+    .menu {
+        padding: 10px;
+        /* Reducir el padding para ajustar a pantallas pequeñas */
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: black;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+
+    /* Boton sig y boton atras del paginado Incio */
+    .pagination-wrapper {
+        display: flex;
+        align-items: center;
+        width: 90%;
+        /* Ajusta el ancho del contenedor al 100% del ancho de su contenedor padre */
+        margin: auto;
+        /* Centra el contenedor en la página */
+    }
+
+    /* Boton sig y boton atras del paginado Final */
+
+    /* Botones de las paginas inciol */
+    .pagination-container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        /* Ajusta este valor para cambiar el espacio entre los botones */
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pagination-container {
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    #pagination-info button {
+        /* Verde */
+        border: none;
+        color: white;
+        padding: 5px 15px;
+        /* Reducido el padding para hacer el botón más pequeño */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        /* Reducido el tamaño de la fuente para hacer el botón más pequeño */
+        margin: 2px 1px;
+        /* Reducido el margen para hacer el botón más pequeño */
+        cursor: pointer;
+        transition-duration: 0.4s;
+        border-radius: 6px;
+        /* Reducido el radio del borde para hacer el botón más pequeño */
+    }
+
+    #pagination-info button:hover {
+        color: black;
+        border: 2px solid;
+        /* Verde */
+    }
+
+    #pagination-info .current-page {
+        /* Rojo */
+        border-radius: 6px;
+        /* Reducido el radio del borde para hacer el botón más pequeño */
+    }
+
+    /* Botones de las paginas Final */
+
+    #menu:checked~.navbar {
+        display: initial;
+    }
+
+    /* con el header-content contolas la barra donde salen las categorias */
+    .header-content {
+        padding: 60px 15px 15px 15px;
+        /* Ajustar los valores para pantallas pequeñas */
+    }
+
+    /* aqui es donde cambias el tamaño de las imagenes en celulra gg si quieres las imagenes mas chicas pudes poner 30px 100px y se haran mas chicas las imagenes*/
+    .movies {
+        padding: 15px;
+        /* Reducir el padding para ajustar a pantallas pequeñas */
+    }
+
+    .footer {
+        margin-top: 20px;
+        /* Reducir el margen superior para pantallas pequeñas */
+        padding: 15px;
+        /* Reducir el padding para ajustar a pantallas pequeñas */
+        text-align: center;
+    }
+
+    .footer ul {
+        margin-top: 10px;
+        /* Reducir el margen superior para pantallas pequeñas */
+    }
+
+    .box-container-1,
+    .box-container-2,
+    .box-container-3 {
+        grid-template-columns: repeat(1, minmax(150px, 1fr));
+        /* Cambiado a 1 columna para pantallas pequeñas */
+        gap: 15px;
+        /* Reducir el espacio entre elementos para pantallas pequeñas */
+        width: 90%;
+        /* Ocupar el ancho completo */
+        margin: 10;
+        /* Eliminar el margen para ocupar el ancho completo */
+    }
+
+      /* esto es las barras de skills y la iamgen final*/
+
+      .card {
+            margin: 15px;
+            /* Agrega una separación de 10px */
+            border: 1px solid black;
+            /* Añade un borde */
+            background-color: #4d4d4d;
+            /* Agrega un color de fondo verde */
+            width: 500px;
+            /* Aumenta el ancho de la tarjeta */
+            height: 75px;
+            /* Aumenta la altura de la tarjeta */
+            display: flex;
+            /* Para que los elementos internos se muestren en línea */
+            align-items: center;
+            /* Para alinear verticalmente los elementos internos */
+    }
+
+    
+        /* aqui se define el tamaño de los cuadros */
+    .contenedordelodemas {
+        margin: 120px 10px;
+    }
+
+
+
+}
+
+/* Partes de celular  Fin  */
+
+
+
+
+
+
+
+/* este solo se encarga de los celulares muy pequeñosssssssssssssssss con 320 px  */
+@media screen and (max-width: 550px) {
+
+    /* estas son las letras de las mejores peliculas LAs mejores peiliculas */
+    .header-2 h1 {
+        color: floralwhite;
+        font-size: 80px;
+        line-height: 60px;
+    }
+
+    /* Boton sig y boton atras del paginado Inicio */
+    .pagination-button1 {
+        padding: 8px 12px;
+        border: none;
+        border-radius: 5px;
+        /* color de fondo */
+        color: white;
+        /* color del texto */
+        cursor: pointer;
+    }
+
+    .pagination-button2 {
+        padding: 8px 12px;
+        border: none;
+        border-radius: 5px;
+        /* color de fondo */
+        color: white;
+        /* color del texto */
+        cursor: pointer;
+    }
+
+    /* Boton sig y boton atras del paginado Final */
+
+
+    #pagination-info button {
+        padding: 8px 16px;
+        /* Aumentado el padding para hacer el botón un poco más grande */
+    }
+
+
+    /* Esto es la pagina poetada donde esta mi nombre y foto Incio*/
+    #inicio {
+        display: flex;
+        flex-direction: column;
+        /* Cambiar el orden de los elementos a columna */
+        justify-content: center;
+        /* Centrar horizontalmente el contenido */
+        align-items: center;
+        /* Centrar verticalmente el contenido */
+        height: 100vh;
+        /* Ajustar la altura al 100% de la ventana */
+        margin-top: 250px;
+        /* Agregar margen superior */
+    }
+
+    /* Estilos para la imagen */
+    .foto img {
+        order: 1;
+        /* La imagen se mostrará primero */
+        width: 300px;
+        /* Cambiar el ancho de la imagen */
+        height: auto;
+        /* Mantener la proporción de aspecto */
+        margin-left: auto;
+        /* Mover la imagen hacia el centro */
+        margin-right: 15px;
+        /* Espacio entre la imagen y el texto */
+        margin-bottom: 30px;
+        /* Agregar margen inferior a la imagen */
+    }
+
+    .nombreyquehago {
+        order: 2;
+        /* El texto se mostrará después de la imagen */
+        flex: 1;
+        /* El texto ocupa todo el espacio restante */
+        text-align: left;
+        /* Alinear el texto a la izquierda */
+        margin-left: 5px;
+        /* Espacio entre el texto y el borde izquierdo */
+        font-size: 35px;
+        /* Cambiar el tamaño de la fuente del texto */
+        margin-bottom: 190px;
+        /* Agregar margen inferior al texto */
+    }
+
+    /* Esto es la pagina poetada donde esta mi nombre y foto Final*/
+
+
+    /* letras de abajo del todo inicio */
+    .footer {
+        font-size: 0.8em;
+        /* Hace las letras más pequeñas */
+    }
+
+    .loquehago,
+    .contactodeabajo {
+        margin-bottom: 50px;
+        /* Añade una separación de 5px de arriba para abajo */
+    }
+
+    .hechaspormi {
+        margin-bottom: 0;
+        /* Remueve la separación de 5px de arriba para abajo */
+    }
+
+    /* letras de abajo del todo Final */
+
+
+    /* esto es las barras skillsy la iamgen Incio*/
+    .skill {
+        margin-right: 50px;
+        /* Se ajustó el margen a la derecha */
+    }
+
+
+
+    .habilidaesh {
+        font-size: 50px;
+    }
+
+    .habilidadesletrasp {
+        font-size: 15px;
+    }
+
+    /* esto es las barras de skills y la iamgen final*/
+
+    .card {
+            margin: 15px;
+            /* Agrega una separación de 10px */
+            border: 1px solid black;
+            /* Añade un borde */
+            background-color: #4d4d4d;
+            /* Agrega un color de fondo verde */
+            width: 500px;
+            /* Aumenta el ancho de la tarjeta */
+            height: 100px;
+            /* Aumenta la altura de la tarjeta */
+            display: flex;
+            /* Para que los elementos internos se muestren en línea */
+            align-items: center;
+            /* Para alinear verticalmente los elementos internos */
+    }
+        .service__name p {
+        font-size: 15px;   /* ajusta a 12px, 0.9rem, etc. */
+        line-height: 1.2;  /* opcional, compacta un poco */
+    }
+
+    
+
+}
+
+
+
+
+
+/* este solo se encarga de los celulares muy pequeñosssssssssssssssss con 320 px  */
+@media screen and (max-width: 430px) {
+
+    /* estas son las letras de las mejores peliculas LAs mejores peiliculas */
+    .header-2 h1 {
+        color: floralwhite;
+        font-size: 80px;
+        line-height: 60px;
+    }
+
+    /* Boton sig y boton atras del paginado Inicio */
+    .pagination-button1 {
+        padding: 8px 12px;
+        border: none;
+        border-radius: 5px;
+        /* color de fondo */
+        color: white;
+        /* color del texto */
+        cursor: pointer;
+    }
+
+    .pagination-button2 {
+        padding: 8px 12px;
+        border: none;
+        border-radius: 5px;
+        /* color de fondo */
+        color: white;
+        /* color del texto */
+        cursor: pointer;
+    }
+
+    /* Boton sig y boton atras del paginado Final */
+
+
+    #pagination-info button {
+        padding: 8px 16px;
+        /* Aumentado el padding para hacer el botón un poco más grande */
+    }
+
+
+    /* Esto es la pagina poetada donde esta mi nombre y foto Incio*/
+    #inicio {
+        display: flex;
+        flex-direction: column;
+        /* Cambiar el orden de los elementos a columna */
+        justify-content: center;
+        /* Centrar horizontalmente el contenido */
+        align-items: center;
+        /* Centrar verticalmente el contenido */
+        height: 100vh;
+        /* Ajustar la altura al 100% de la ventana */
+        margin-top: 250px;
+        /* Agregar margen superior */
+    }
+
+    /* Estilos para la imagen */
+    .foto img {
+        order: 1;
+        /* La imagen se mostrará primero */
+        width: 300px;
+        /* Cambiar el ancho de la imagen */
+        height: auto;
+        /* Mantener la proporción de aspecto */
+        margin-left: auto;
+        /* Mover la imagen hacia el centro */
+        margin-right: 15px;
+        /* Espacio entre la imagen y el texto */
+        margin-bottom: 30px;
+        /* Agregar margen inferior a la imagen */
+    }
+
+    .nombreyquehago {
+        order: 2;
+        /* El texto se mostrará después de la imagen */
+        flex: 1;
+        /* El texto ocupa todo el espacio restante */
+        text-align: left;
+        /* Alinear el texto a la izquierda */
+        margin-left: 5px;
+        /* Espacio entre el texto y el borde izquierdo */
+        font-size: 35px;
+        /* Cambiar el tamaño de la fuente del texto */
+        margin-bottom: 190px;
+        /* Agregar margen inferior al texto */
+    }
+
+    /* Esto es la pagina poetada donde esta mi nombre y foto Final*/
+
+
+    /* letras de abajo del todo inicio */
+    .footer {
+        font-size: 0.8em;
+        /* Hace las letras más pequeñas */
+    }
+
+    .loquehago,
+    .contactodeabajo {
+        margin-bottom: 50px;
+        /* Añade una separación de 5px de arriba para abajo */
+    }
+
+    .hechaspormi {
+        margin-bottom: 0;
+        /* Remueve la separación de 5px de arriba para abajo */
+    }
+
+    /* letras de abajo del todo Final */
+
+
+    /* esto es las barras skillsy la iamgen Incio*/
+
+    .skill {
+        margin-right: 50px;
+        /* Se ajustó el margen a la derecha */
+    }
+
+
+
+    .habilidaesh {
+        font-size: 50px;
+    }
+
+    .habilidadesletrasp {
+        font-size: 15px;
+    }
+
+    /* esto es las barras de skills y la iamgen final*/
+}
+
+
+
+
+/* este solo se encarga de los celulares muy pequeñosssssssssssssssss con 320 px  */
+@media screen and (max-width: 365px) {
+
+
+
+    /* Boton sig y boton atras del paginado Inicio */
+    .pagination-button1 {
+        padding: 8px 5px;
+        border: none;
+        border-radius: 5px;
+        /* color de fondo */
+        color: white;
+        /* color del texto */
+        cursor: pointer;
+    }
+
+    .pagination-button2 {
+        padding: 8px 5px;
+        border: none;
+        border-radius: 5px;
+        /* color de fondo */
+        color: white;
+        /* color del texto */
+        cursor: pointer;
+    }
+
+    /* Boton sig y boton atras del paginado Final */
+
+
+    #pagination-info button {
+        padding: 8px 13px;
+        /* Aumentado el padding para hacer el botón un poco más grande */
+    }
+}
+
+
+
+@media screen and (max-width: 325px) {
+
+    /* Estilos para la sección de inicio */
+    #inicio {
+        display: flex;
+        flex-direction: column;
+        /* Cambiar el orden de los elementos a columna */
+        justify-content: center;
+        /* Centrar horizontalmente el contenido */
+        align-items: center;
+        /* Centrar verticalmente el contenido */
+        height: 100vh;
+        /* Ajustar la altura al 100% de la ventana */
+        margin-top: 180px;
+        /* Agregar margen superior */
+    }
+
+    /* Estilos para la imagen */
+    .foto img {
+        order: 1;
+        /* La imagen se mostrará primero */
+        width: 250px;
+        /* Reducir el ancho de la imagen */
+        height: auto;
+        /* Mantener la proporción de aspecto */
+        margin-left: auto;
+        /* Mover la imagen hacia el centro */
+        margin-right: 15px;
+        /* Espacio entre la imagen y el texto */
+        margin-bottom: 40px;
+        /* Agregar margen inferior a la imagen */
+    }
+
+    /* Estilos para el texto */
+    .nombreyquehago {
+        order: 2;
+        /* El texto se mostrará después de la imagen */
+        flex: 1;
+        /* El texto ocupa todo el espacio restante */
+        text-align: left;
+        /* Alinear el texto a la izquierda */
+        margin-left: 5px;
+        /* Espacio entre el texto y el borde izquierdo */
+        font-size: 20px;
+        /* Reducir el tamaño de la fuente del texto */
+        margin-bottom: 190px;
+        /* Agregar margen inferior al texto */
+    }
+
+
+    .minombre {
+        font-size: 60px;
+        /* Reducir el tamaño de la fuente del texto */
+
+    }
+
+}
+
+
+/* este solo se encarga de los celulares muy pequeñosssssssssssssssss con 320 px  */
+@media screen and (max-width: 320px) {
+
+    .footer h3 {
+        font-size: 25px;
+    }
+
+
+    .footer a {
+        font-size: 15px;
+        margin-right: 15px;
+    }
+
+    /* menu pequeño inicio */
+    .pequeño {
+        width: 43px;
+        height: 43px;
+    }
+
+    /* menu pequeño final */
+
+
+
+    /* estas son las letras de las mejores peliculas LAs mejores peiliculas */
+    .header-2 h1 {
+        color: floralwhite;
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+
+    /* Boton sig y boton atras del paginado Inicio */
+
+    .pagination-button1 {
+        padding: 8px 8px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        /* color del texto */
+        cursor: pointer;
+    }
+
+    .pagination-button2 {
+        padding: 8px 8px;
+        border: none;
+        border-radius: 5px;
+        /* color de fondo */
+        color: white;
+        /* color del texto */
+        cursor: pointer;
+    }
+
+    /* Boton sig y boton atras del paginado Final */
+
+
+
+    #pagination-info button {
+        padding: 8px 9px;
+        /* Aumentado el padding para hacer el botón un poco más grande */
+    }
+}
+
+
+/* este solo se encarga de los celulares muy pequeñosssssssssssssssss con 320 px  */
+@media screen and (max-width: 280px) {
+
+    .footer h3 {
+        font-size: 23px;
+    }
+
+
+    .footer a {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+
+}

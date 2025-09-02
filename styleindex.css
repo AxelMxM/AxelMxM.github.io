@@ -1,0 +1,848 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* aqui esta la hoja principal */
+body {
+    font-family: "Bebas Neue", sans-serif;
+    background: #0D0D0D;
+    color: #77F329;
+}
+
+/* Este ese  scrollbar Inicio*/
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: none;
+}
+
+/* Este ese  scrollbar Final*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* aqui se define el tamaño de los cuadros */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 35px;
+    color: #77F329;
+}
+
+/* estos son los links del inicio */
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+/* estos son los links del inicio */
+.menu .navbar ul li a {
+    font-size: 22px;
+    padding: 20px;
+    color: aliceblue;
+    display: block;
+}
+
+/* estos son los links del inicio aqui le cambio el color */
+.menu .navbar ul li a:hover {
+    color: #66ff33;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+/* esta es la separacion del los videos y inicio     */
+hr {
+    border: 2px solid white;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.content {
+    color: white;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    margin-top: 100px;
+    border-top: 2px solid white;
+}
+
+.footer ul {
+    display: flex;
+}
+
+.footer h3 {
+    font-size: 30px;
+}
+
+.footer a {
+    color: aliceblue;
+    font-size: 20px;
+    margin-right: 20px;
+    display: block;
+}
+
+.footer a:hover {
+    color: #66ff33;
+}
+
+/* Estilos para los enlaces Inicio */
+a {
+    color: #f2f2f2;
+    /* Color del texto del enlace */
+    text-decoration: none;
+    /* Eliminar el subrayado por defecto */
+    transition: color 0.3s ease;
+    /* Transición suave para el cambio de color */
+}
+
+/* Estilos para los enlaces cuando se les pasa el cursor por encima */
+a:hover {
+    color: #66ff33;
+    /* Cambiar el color del texto cuando el cursor está sobre el enlace */
+}
+
+/* Estilos para los enlaces cuando están activos (haciendo clic) */
+a:active {
+    color: #66ff33;
+    /* Cambiar el color del texto cuando se hace clic en el enlace */
+}
+
+/* Estilos para los enlaces Fin */
+
+/* aqui se define el tamaño de los cuadros */
+.contenedordelodemas {
+    margin: 100px 100px;
+
+}
+
+
+
+
+
+
+/* Estilos para la sección de inicio */
+#inicio {
+    display: flex;
+    flex-direction: row-reverse;
+    /* Invertir el orden de los elementos */
+    justify-content: center;
+    /* Centrar horizontalmente el contenido */
+    align-items: center;
+    /* Centrar verticalmente el contenido */
+    height: 100vh;
+    /* Ajustar la altura al 100% de la ventana */
+}
+
+.foto img {
+    width: 400px;
+    /* Cambiar el ancho de la imagen */
+    height: auto;
+    /* Mantener la proporción de aspecto */
+    margin-left: auto;
+    /* Mover la imagen hacia el centro */
+    margin-right: 15px;
+    /* Espacio entre la imagen y el texto */
+    border-radius: 50%;
+    /* Hacer la imagen circular */
+}
+
+/* Estilos para el texto */
+.nombreyquehago {
+    flex: 1;
+    /* El texto ocupa todo el espacio restante */
+    text-align: left;
+    /* Alinear el texto a la izquierda */
+    margin-left: 20px;
+    /* Espacio entre el texto y el borde izquierdo */
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Estilos para el párrafo */
+.estudiante {
+    font-size: 25px;
+    /* Tamaño de la letra */
+    color: white;
+    /* Color de la letra */
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.minombre {
+    font-size: 70px;
+    color: #77F329;
+    /* Color de la letra */
+}
+
+/* Estilos para el texto */
+.nombreyquehago {
+    flex: 1;
+    /* El texto ocupa todo el espacio restante */
+    text-align: left;
+    /* Alinear el texto a la izquierda */
+    margin-left: 5px;
+    /* Espacio entre el texto y el borde izquierdo */
+    font-size: 35px;
+    /* Cambiar el tamaño de la fuente del texto */
+}
+
+/* Estilos para los enlaces */
+.enlace-descargar {
+    display: inline-block;
+    /* Mostrar en línea horizontal */
+    margin-right: 20px;
+    /* Espacio entre los enlaces */
+    padding: 20px;
+    /* Espacio interno */
+    border: 2px solid black;
+    /* Contorno */
+    border-radius: 10px;
+    /* Borde redondeado */
+    font-size: 30px;
+    /* Tamaño de la letra */
+    background-color: blue;
+    /* Color de fondo */
+}
+
+/* Estilos para los enlaces */
+.enlace-sobre-mi {
+    display: inline-block;
+    /* Mostrar en línea horizontal */
+    margin-right: 20px;
+    /* Espacio entre los enlaces */
+    padding: 20px;
+    /* Espacio interno */
+    border: 2px solid #66ff33;
+    /* Contorno */
+    border-radius: 10px;
+    /* Borde redondeado */
+    font-size: 30px;
+    /* Tamaño de la letra */
+}
+
+
+
+/* esta es las letras echas por mi incio*/
+.hechaspormi {
+    text-align: center;
+    /* Centra el contenido */
+    color: white;
+    /* Cambia el color del texto a blanco */
+}
+
+/* esta es las letras echas por mi final*/
+
+/* estas son las letras de contaxto inicio*/
+.contactodeabajo {
+    text-align: center;
+    /* Centra el contenido */
+    color: white;
+    /* Cambia el color del texto a blanco */
+}
+
+.contactodeabajo p {
+    color: white;
+    /* Cambia el color del texto a blanco */
+}
+
+.contact-info {
+    display: inline-block;
+}
+
+.contact-info i,
+.contact-info p {
+    display: inline;
+    margin-right: 5px;
+    /* Ajusta el margen según sea necesario */
+    color: white;
+    /* Cambia el color del icono y el número de teléfono a blanco */
+}
+
+.contact-info p {
+    color: white;
+    /* Cambia el color del número de teléfono a blanco */
+}
+
+.email {
+    display: inline-flex;
+    /* Cambiado a inline-flex para mantener los elementos en línea */
+    align-items: center;
+    /* Centrar verticalmente los elementos */
+    color: white;
+    /* Cambiar el color del texto a blanco */
+}
+
+.email p {
+    margin: 0;
+    /* Eliminar el margen del párrafo para evitar espacio adicional */
+}
+
+.email i {
+    color: white;
+    /* Cambiar el color del icono a blanco */
+    margin-right: 5px;
+    /* Ajustar el margen derecho entre el icono y el texto */
+}
+
+.contact-link {
+    background-color: blue;
+    color: white;
+    /* Cambia el color del texto a blanco */
+    padding: 10px 30px;
+    /* Agrega espacio interno al enlace */
+    border-radius: 15px;
+    /* Redondea los bordes del enlace */
+    text-decoration: none;
+    /* Quita la subrayado predeterminado */
+}
+
+/* estas son las letras de contaxto final*/
+
+/*esto es lo que se hacer inicio*/
+.loquehago {
+    text-align: center;
+    /* Centra el contenido */
+    color: white;
+    /* Cambia el color del texto a blanco */
+}
+
+.loquehago h3 {
+    margin-bottom: 10px;
+    /* Añade espacio debajo del título */
+}
+
+.loquehago p {
+    margin-bottom: 5px;
+    /* Añade espacio debajo de cada párrafo */
+}
+/*esto es lo que se hacer Final*/
+
+
+/* Partes de celular  Inicio  */
+@media (max-width: 1280px) {
+
+    /* menu pequeño inicio */
+    .pequeño {
+        width: 50px;
+        height: 50px;
+    }
+
+    /* menu pequeño final */
+
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: black;
+        display: none;
+        width: 100%;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked~.navbar {
+        display: initial;
+    }
+
+    .header-1 {
+        width: 100%;
+        align-items: center;
+    }
+
+    .header-2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer {
+        margin-top: 30px;
+        padding: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer ul {
+        margin-top: 15px;
+        justify-content: center;
+    }
+
+    /* aqui se define el tamaño de los cuadros */
+.contenedordelodemas {
+    margin: 90px 100px;
+
+}
+
+
+    /* !letras de abajo Inicio */
+    .footer {
+        font-size: 1.2em;
+        /* Hace las letras más pequeñas */
+    }
+
+    .loquehago {
+        display: none;
+    }
+
+    .contactodeabajo {
+        margin-bottom: 50px;
+        /* Añade una separación de 5px de arriba para abajo */
+    }
+
+    .hechaspormi {
+        margin-bottom: 0;
+        /* Remueve la separación de 5px de arriba para abajo */
+    }
+
+    /* !letras de abajo Final */
+}
+
+
+
+
+/* este solo se encarga de los celulares muy pequeñosssssssssssssssss con 320 px  */
+@media screen and (max-width: 770px) {
+    .menu {
+        padding: 10px;
+        /* Reducir el padding para ajustar a pantallas pequeñas */
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: black;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked~.navbar {
+        display: initial;
+    }
+
+    /* con el header-content contolas la barra donde salen las categorias */
+    .header-content {
+        padding: 60px 15px 15px 15px;
+        /* Ajustar los valores para pantallas pequeñas */
+    }
+
+    .footer {
+        margin-top: 20px;
+        /* Reducir el margen superior para pantallas pequeñas */
+        padding: 15px;
+        /* Reducir el padding para ajustar a pantallas pequeñas */
+        text-align: center;
+    }
+
+    .footer ul {
+        margin-top: 10px;
+        /* Reducir el margen superior para pantallas pequeñas */
+    }
+
+    /* ! Letras de abaja incio */
+    .footer {
+        font-size: 0.9em;
+        /* Hace las letras más pequeñas */
+    }
+
+    .loquehago,
+    .contactodeabajo {
+        margin-bottom: 50px;
+        /* Añade una separación de 5px de arriba para abajo */
+    }
+
+    .hechaspormi {
+        margin-bottom: 0;
+        /* Remueve la separación de 5px de arriba para abajo */
+    }
+
+    /* ! Letras de abaja Final */
+
+    /* ! Cambios en la posición de la foto y el texto en pantallas pequeñas Inico*/
+    /* Estilos para el párrafo */
+    .estudiante {
+        font-size: 40px;
+        /* Tamaño de la letra */
+        color: white;
+        /* Color de la letra */
+        font-family: "Sedan", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .minombre {
+        font-size: 60px;
+        color: white;
+        /* Color de la letra */
+    }
+
+    /* Estilos para los enlaces */
+    .enlace-descargar {
+        display: inline-block;
+        /* Mostrar en línea horizontal */
+        margin-right: 10px;
+        /* Espacio entre los enlaces */
+        padding: 10px;
+        /* Espacio interno */
+        border: 2px solid black;
+        /* Contorno */
+        border-radius: 5px;
+        /* Borde redondeado */
+        font-size: 20px;
+        /* Tamaño de la letra */
+        background-color: blue;
+        /* Color de fondo */
+    }
+
+    /* Estilos para los enlaces */
+    .enlace-sobre-mi {
+        display: inline-block;
+        /* Mostrar en línea horizontal */
+        margin-right: 10px;
+        /* Espacio entre los enlaces */
+        padding: 10px;
+        /* Espacio interno */
+        border: 2px solid #66ff33;
+        /* Contorno */
+        border-radius: 5px;
+        /* Borde redondeado */
+        font-size: 20px;
+        /* Tamaño de la letra */
+    }
+
+    /* Estilos para la sección de inicio */
+    #inicio {
+        display: flex;
+        flex-direction: column;
+        /* Cambiar el orden de los elementos a columna */
+        justify-content: center;
+        /* Centrar horizontalmente el contenido */
+        align-items: center;
+        /* Centrar verticalmente el contenido */
+        height: 100vh;
+        /* Ajustar la altura al 100% de la ventana */
+        margin-top: 90px;
+        /* Agregar margen superior */
+    }
+
+    /* Estilos para la imagen */
+    .foto img {
+        order: 1;
+        /* La imagen se mostrará primero */
+        width: 300px;
+        /* Cambiar el ancho de la imagen */
+        height: auto;
+        /* Mantener la proporción de aspecto */
+        margin-left: auto;
+        /* Mover la imagen hacia el centro */
+        margin-right: 15px;
+        /* Espacio entre la imagen y el texto */
+        margin-bottom: 20px;
+        /* Agregar margen inferior a la imagen */
+    }
+
+    /* Estilos para el texto */
+    .nombreyquehago {
+        order: 2;
+        /* El texto se mostrará después de la imagen */
+        flex: 1;
+        /* El texto ocupa todo el espacio restante */
+        text-align: left;
+        /* Alinear el texto a la izquierda */
+        margin-left: 5px;
+        /* Espacio entre el texto y el borde izquierdo */
+        font-size: 35px;
+        /* Cambiar el tamaño de la fuente del texto */
+    }
+
+    /* ! Cambios en la posición de la foto y el texto en pantallas pequeñas Final*/
+
+
+    /* aqui se define el tamaño de los cuadros */
+.contenedordelodemas {
+    margin:120px 100px;
+
+}
+
+}
+
+/* Partes de celular  Fin  */
+
+
+
+@media screen and (max-width: 430px) {
+
+    /* letras de abajo inicio */
+    .footer {
+        font-size: 0.8em;
+        /* Hace las letras más pequeñas */
+    }
+
+    .loquehago,
+    .contactodeabajo {
+        margin-bottom: 50px;
+        /* Añade una separación de 5px de arriba para abajo */
+    }
+
+    .hechaspormi {
+        margin-bottom: 0;
+        /* Remueve la separación de 5px de arriba para abajo */
+    }
+
+
+    /* ! estas son las fptos y lastras */
+    /* Estilos para la sección de inicio */
+    #inicio {
+        display: flex;
+        flex-direction: column;
+        /* Cambiar el orden de los elementos a columna */
+        justify-content: center;
+        /* Centrar horizontalmente el contenido */
+        align-items: center;
+        /* Centrar verticalmente el contenido */
+        height: 100vh;
+        /* Ajustar la altura al 100% de la ventana */
+        margin-top: 250px;
+        /* Agregar margen superior */
+    }
+
+    /* Estilos para la imagen */
+    .foto img {
+        order: 1;
+        /* La imagen se mostrará primero */
+        width: 300px;
+        /* Cambiar el ancho de la imagen */
+        height: auto;
+        /* Mantener la proporción de aspecto */
+        margin-left: auto;
+        /* Mover la imagen hacia el centro */
+        margin-right: 15px;
+        /* Espacio entre la imagen y el texto */
+        margin-bottom: 30px;
+        /* Agregar margen inferior a la imagen */
+    }
+
+    /* Estilos para el texto */
+    .nombreyquehago {
+        order: 2;
+        /* El texto se mostrará después de la imagen */
+        flex: 1;
+        /* El texto ocupa todo el espacio restante */
+        text-align: left;
+        /* Alinear el texto a la izquierda */
+        margin-left: 5px;
+        /* Espacio entre el texto y el borde izquierdo */
+        font-size: 35px;
+        /* Cambiar el tamaño de la fuente del texto */
+        margin-bottom: 190px;
+        /* Agregar margen inferior al texto */
+    }
+
+
+
+    .estudiante {
+        font-size: 30px;
+        /* Tamaño de la letra */
+        color: white;
+        /* Color de la letra */
+        font-family: "Sedan", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .minombre {
+        font-size: 50px;
+        color: white;
+        /* Color de la letra */
+    }
+
+    /* ! estas son las fptos y lastras Final */
+
+
+
+
+
+}
+
+
+
+/* este solo se encarga de los celulares muy pequeñosssssssssssssssss con 320 px  */
+@media screen and (max-width: 380px) {
+    .footer a {
+        font-size: 17px;
+        margin-right: 17px;
+    }
+
+    /* menu pequeño inicio */
+    .pequeño {
+        width: 45px;
+        height: 50px;
+    }
+
+    /* menu pequeño final */
+}
+
+/* este solo se encarga de los celulares muy pequeñosssssssssssssssss con 320 px  */
+@media screen and (max-width: 320px) {
+    .footer h3 {
+        font-size: 25px;
+    }
+
+    .footer a {
+        font-size: 15px;
+        margin-right: 15px;
+    }
+
+    /* menu pequeño inicio */
+    .pequeño {
+        width: 43px;
+        height: 43px;
+    }
+
+    /* menu pequeño final */
+
+    /* estas son las letras de las mejores peliculas LAs mejores peiliculas */
+    .header-2 h1 {
+        color: #77F329;
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+
+    /* ! estas son las fptos y lastras Inicio*/
+    /* Estilos para la sección de inicio */
+    #inicio {
+        display: flex;
+        flex-direction: column;
+        /* Cambiar el orden de los elementos a columna */
+        justify-content: center;
+        /* Centrar horizontalmente el contenido */
+        align-items: center;
+        /* Centrar verticalmente el contenido */
+        height: 100vh;
+        /* Ajustar la altura al 100% de la ventana */
+        margin-top: 180px;
+        /* Agregar margen superior */
+    }
+
+    /* Estilos para la imagen */
+    .foto img {
+        order: 1;
+        /* La imagen se mostrará primero */
+        width: 250px;
+        /* Reducir el ancho de la imagen */
+        height: auto;
+        /* Mantener la proporción de aspecto */
+        margin-left: auto;
+        /* Mover la imagen hacia el centro */
+        margin-right: 15px;
+        /* Espacio entre la imagen y el texto */
+        margin-bottom: 40px;
+        /* Agregar margen inferior a la imagen */
+    }
+
+    /* Estilos para el texto */
+    .nombreyquehago {
+        order: 2;
+        /* El texto se mostrará después de la imagen */
+        flex: 1;
+        /* El texto ocupa todo el espacio restante */
+        text-align: left;
+        /* Alinear el texto a la izquierda */
+        margin-left: 5px;
+        /* Espacio entre el texto y el borde izquierdo */
+        font-size: 20px;
+        /* Reducir el tamaño de la fuente del texto */
+        margin-bottom: 190px;
+        /* Agregar margen inferior al texto */
+    }
+
+
+    .minombre {
+        font-size: 40px;
+        /* Reducir el tamaño de la fuente del texto */
+    }
+
+    .estudiante {
+        font-size: 30px;
+        /* Tamaño de la letra */
+        color: white;
+        /* Color de la letra */
+        font-family: "Sedan", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    /* ! estas son las fptos y lastras Final*/
+}
+
+/* este solo se encarga de los celulares muy pequeñosssssssssssssssss con 320 px  */
+@media screen and (max-width: 280px) {
+    .footer h3 {
+        font-size: 23px;
+    }
+
+    .footer a {
+        font-size: 10px;
+        margin-right: 10px;
+    }
+}

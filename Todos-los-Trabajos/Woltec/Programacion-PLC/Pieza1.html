@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Paginas/stylesobremi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="/index.html" class="logo">Inicio</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="/carpetaindex/imagenes/menu.png" class="menu-logo pequeño" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="/index.html">Inicio</a></li>
+                    <li><a href="/Paginas/Sobremi.html">Sobre mí</a></li>
+                    <li><a href="/Paginas/Servicios.html">Servicios</a></li>
+                    <li><a href="/Paginas/Portafolio o Trabajos.html">Portafolio o Trabajos</a></li>
+                    <li> <a href="mailto:hectoraxelpm@gmail.com"
+                            class="contact-link cursor-pointer mt-3 no-underline border-round-lg">
+                            <span>
+                                <i class="fa-solid fa-envelope"></i>
+                            </span>
+                            Escríbeme
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <section class="movies container">
+        <br>
+        <br>
+        <br>
+        <h2> Programación en Ispsoft y Dopsoft del banco de prueba 
+        </h2>
+        <hr>
+
+        <div class="box-4">
+            <div class="content">
+                <div class="slideshow">
+                    <div class="my-slide fade">
+                        <img src="/Todos-los-Trabajos/Woltec/Programacion-PLC/Imagenes-Programacion-PLC/1.png"
+                            alt="Imagen 1" style="width:100%">
+                    </div>
+                    <div class="my-slide fade">
+                        <img src="/Todos-los-Trabajos/Woltec/Programacion-PLC/Imagenes-Programacion-PLC/2.png"
+                            alt="Imagen 1" style="width:100%">
+                    </div><div class="my-slide fade">
+                        <img src="/Todos-los-Trabajos/Woltec/Programacion-PLC/Imagenes-Programacion-PLC/3.png"
+                            alt="Imagen 1" style="width:100%">
+                    </div><div class="my-slide fade">
+                        <img src="/Todos-los-Trabajos/Woltec/Programacion-PLC/Imagenes-Programacion-PLC/4.png"
+                            alt="Imagen 1" style="width:100%">
+                    </div><div class="my-slide fade">
+                        <img src="/Todos-los-Trabajos/Woltec/Programacion-PLC/Imagenes-Programacion-PLC/5.png"
+                            alt="Imagen 1" style="width:100%">
+                    </div><div class="my-slide fade">
+                        <img src="/Todos-los-Trabajos/Woltec/Programacion-PLC/Imagenes-Programacion-PLC/6.png"
+                            alt="Imagen 1" style="width:100%">
+                    <div class="my-slide fade">
+                        <img src="/Todos-los-Trabajos/Woltec/Programacion-PLC/Imagenes-Programacion-PLC/8.png"
+                            alt="Imagen 1" style="width:100%">
+                    </div>                  
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="text-content">
+                    <p>
+                        La programación de la estación 10506708 está organizada en tres modos principales de operación,
+                        los cuales se seleccionan desde la HMI. Cada modo define una secuencia lógica que el PLC ejecuta
+                        junto con los módulos de prueba y las electroválvulas.
+                        <br>
+                        <br>
+                        En el modo Main se utiliza exclusivamente el módulo 10510030. El operador coloca el módulo en el
+                        banco de pruebas y presiona el botón de avance bloqueo. Después inicia la validación y
+                        posteriormente el test. Si todo funciona correctamente, los LEDs verdes en el HMI se encienden
+                        indicando que los puntos de prueba son válidos. En caso contrario, aparece un LED rojo que
+                        señala una falla en las conexiones. Para regresar el sistema a su estado inicial se presiona el
+                        botón Reset. Si el operador cambia de modo o presiona el ícono de Windows, el módulo se libera
+                        automáticamente por seguridad, ya que este módulo solo puede usarse en Main.
+                        <br>
+                        <br>
+                        En el modo IOS la estación permite al operador realizar pruebas manuales. El módulo se coloca y
+                        se activa el avance bloqueo, después se habilita el modo manual en la HMI. En este estado, el
+                        operador puede activar electroválvulas o LEDs de forma directa y observar su funcionamiento, lo
+                        que facilita la detección visual de fallas. Si se cambia de modo o se presiona el ícono de
+                        Windows, el módulo se libera para evitar que quede en un estado de prueba activa.
+                        <br>
+                        <br>
+                        En el modo Comprobación de Módulo, el sistema identifica el binario único de cada módulo. Tras
+                        colocar el módulo y activar el avance bloqueo, se presiona el botón de validación del binario.
+                        El sistema compara el código del módulo con su base de datos y, si coincide, abre una pantalla
+                        específica en la HMI para ese módulo. Si no coincide, se muestra un error y la prueba se
+                        reinicia. Una vez validado, se presiona iniciar test e inmediatamente se ejecuta una prueba
+                        automática en la cavidad correspondiente. Si la prueba es exitosa, aparece un LED verde con el
+                        mensaje de validación; si falla, se enciende un LED rojo y se indica la falla detectada en el
+                        conector. Para repetir la prueba se utiliza el botón liberar pieza, que reinicia el proceso.
+                        Finalmente, con el botón regreso se vuelve a la pantalla inicial y se libera el módulo,
+                        garantizando que el sistema quede listo para la siguiente prueba.
+                        <br>
+                        <br>
+                        En conjunto, la programación no está escrita en código visible dentro del manual, sino que se
+                        describe como secuencias de operación controladas por el PLC y la HMI. Cada modo representa un
+                        bloque lógico de pruebas: el primero asegura el funcionamiento general de la estación, el
+                        segundo permite comprobaciones manuales y el tercero identifica y valida automáticamente los
+                        módulos instalados.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <div class="enlaces-container">
+            <a href="https://drive.google.com/file/d/1fjprjlPKmid5uqq3VgCB7p_-8VQmMqiR/view?usp=drive_link"
+                aria-label="Descargar curriculum" download class="enlace-descargar">Descargar Programación</a>
+        </div>
+    </section>
+
+    <!-- Fin -->
+
+    <!-- Inicio -->
+    <section class="movies container">
+        <h2>Más importantes</h2>
+        <hr>
+        <div class="box-container-2">
+            <!-- Este contenedor debería estar vacío -->
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <hr>
+        <div class="load-more" id="load-more-2">Cargar mas</div>
+        <!-- Botones de paginación -->
+    </section>
+    <!-- Final -->
+
+
+    <!-- Inicio -->
+    <section class="movies container">
+        <!-- aqui empieza el apartado de los  videos de estrenos-->
+        <h2>Recomendados</h2>
+        <hr>
+        <div class="box-container-3">
+            <!-- Este contenedor debería estar vacío -->
+        </div>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <div class="load-more" id="load-more-3">Cargar mas</div>
+    </section>
+    <!-- FInal del apartado de estrenos -->
+
+
+
+
+
+
+    <footer class="footer container">
+        <div class="loquehago">
+            <h3>Mis Servicios</h3>
+            <p>Optimización de Procesos Industriales</p>
+            <br>
+            <p>Desarrollo Web (Front-end y Back-end)</p>
+            <br>
+            <p>Diseño Mecánico y Simulación en 2D y 3D</p>
+            <br>
+            <p>Programación de PLCs y Microcontroladores</p>
+        </div>
+
+        <div class="contactodeabajo">
+            <h3>Contacto</h3>
+            <br>
+            <div class="contact-info">
+                <i class="fa-sharp fa-solid fa-phone"></i>
+                <p>+52 477 526 7852</p>
+            </div>
+            <br>
+            <br>
+            <div class="email">
+                <i class="fa-solid fa-envelope"></i>
+                <p>hectoraxelpm@gmail.com</p>
+            </div>
+            <br>
+            <br>
+            <a href="mailto:hectoraxelpm@gmail.com"
+                class="contact-link cursor-pointer mt-3 no-underline border-round-lg">
+                <span>
+                    <i class="fa-solid fa-envelope"></i>
+                </span>
+                Escríbeme
+            </a>
+        </div>
+
+        <div class="hechaspormi">
+            <h3>© 2024-2024.</h3>
+            <p>
+                Hecho con amor por
+                <br>
+                HECTOR AXEL ALEJANDRO PACHECO MARTINEZ
+                <br>
+                utilizando Visual Studio Code.
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="/Todos-los-Trabajos/basedelosvideos.js"></script>
+
+
+</body>
+
+</html>
